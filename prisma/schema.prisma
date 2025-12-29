@@ -1,0 +1,176 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String?
+  accounts     Account[]
+  categories   Category[]
+  weeklyBudget WeeklyBudget[]
+  transactions Transaction[]
+  assets       Asset[]
+  loans        Loan[]
+  events       Event[]
+  allocations  Allocation[]
+  settings     UserSettings?
+  recurring    RecurringRule[]
+}
+
+model Account {
+  id       String   @id @default(cuid())
+  name     String
+  type     String
+  balance  Float
+  user     User     @relation(fields: [userId], references: [id])
+  userId   String
+  sourceTx Transaction[] @relation("sourceAccount")
+  targetTx Transaction[] @relation("targetAccount")
+}
+
+model Category {
+  id            String   @id @default(cuid())
+  name          String
+  allowCarryover Boolean @default(true)
+  user          User     @relation(fields: [userId], references: [id])
+  userId        String
+  budgetItems   WeeklyBudgetItem[]
+  transactions  Transaction[]
+  recurring     RecurringRule[]
+}
+
+model WeeklyBudget {
+  id        String            @id @default(cuid())
+  weekStart DateTime
+  weekEnd   DateTime
+  items     WeeklyBudgetItem[]
+  user      User              @relation(fields: [userId], references: [id])
+  userId    String
+}
+
+model WeeklyBudgetItem {
+  id           String   @id @default(cuid())
+  planned      Float
+  spent        Float    @default(0)
+  transfersIn  Float    @default(0)
+  transfersOut Float    @default(0)
+  category     Category @relation(fields: [categoryId], references: [id])
+  categoryId   String
+  budget       WeeklyBudget @relation(fields: [budgetId], references: [id])
+  budgetId     String
+}
+
+model Transaction {
+  id             String   @id @default(cuid())
+  amount         Float
+  date           DateTime
+  transactionType String
+  notes          String?
+  account        Account  @relation("sourceAccount", fields: [accountId], references: [id])
+  accountId      String
+  targetAccount  Account? @relation("targetAccount", fields: [targetAccountId], references: [id])
+  targetAccountId String?
+  category       Category?
+  categoryId     String?
+  loan           Loan?
+  loanId         String?
+  event          Event?
+  eventId        String?
+  user           User     @relation(fields: [userId], references: [id])
+  userId         String
+}
+
+model Asset {
+  id            String   @id @default(cuid())
+  name          String
+  type          String
+  purchasePrice Float
+  currentValue  Float
+  notes         String?
+  linkedLoan    Loan?    @relation(fields: [linkedLoanId], references: [id])
+  linkedLoanId  String?
+  user          User     @relation(fields: [userId], references: [id])
+  userId        String
+}
+
+model Loan {
+  id                String   @id @default(cuid())
+  loanType          String
+  principalAmount   Float
+  interestRate      Float
+  rateType          String
+  amortizationYears Int
+  termYears         Int
+  paymentFrequency  String
+  linkedAsset       Asset?   @relation(fields: [linkedAssetId], references: [id])
+  linkedAssetId     String?
+  payments          LoanPayment[]
+  transactions      Transaction[]
+  user              User     @relation(fields: [userId], references: [id])
+  userId            String
+}
+
+model LoanPayment {
+  id               String   @id @default(cuid())
+  amount           Float
+  date             DateTime
+  interestPortion  Float
+  principalPortion Float
+  loan             Loan     @relation(fields: [loanId], references: [id])
+  loanId           String
+}
+
+model Event {
+  id           String   @id @default(cuid())
+  name         String
+  type         String
+  targetAmount Float
+  targetDate   DateTime
+  status       String
+  allocated    Float @default(0)
+  transactions Transaction[]
+  allocations  Allocation[]
+  user         User     @relation(fields: [userId], references: [id])
+  userId       String
+}
+
+model Allocation {
+  id        String   @id @default(cuid())
+  amount    Float
+  source    String
+  date      DateTime
+  event     Event    @relation(fields: [eventId], references: [id])
+  eventId   String
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+}
+
+model RecurringRule {
+  id         String   @id @default(cuid())
+  label      String
+  amount     Float
+  cadence    String
+  category   Category? @relation(fields: [categoryId], references: [id])
+  categoryId String?
+  event      Event?    @relation(fields: [eventId], references: [id])
+  eventId    String?
+  account    Account?  @relation(fields: [accountId], references: [id])
+  accountId  String?
+  user       User      @relation(fields: [userId], references: [id])
+  userId     String
+}
+
+model UserSettings {
+  id             String @id @default(cuid())
+  weekStartsOn   Int    @default(1)
+  minimumCash    Float  @default(500)
+  notificationEmail String?
+  user           User   @relation(fields: [userId], references: [id])
+  userId         String @unique
+}
