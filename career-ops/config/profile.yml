@@ -1,0 +1,73 @@
+# Career-Ops Profile Configuration -- Erika McCann
+
+candidate:
+  full_name: "Erika McCann"
+  email: "erikarmccann@icloud.com"
+  phone: "(587) 893-2394"
+  location: "Calgary, AB, Canada"
+  linkedin: "linkedin.com/in/erikarmccann"
+  portfolio_url: ""
+  github: ""
+  twitter: ""
+
+target_roles:
+  primary:
+    - "Manager, Digital Delivery"
+    - "Manager, IT Programs"
+    - "Product Manager"
+    - "IT Manager"
+    - "Manager, Business Solutions"
+  archetypes:
+    - name: "IT / Digital Manager (Energy Industry)"
+      level: "Manager/Senior Manager"
+      fit: "primary"
+    - name: "Product Manager (Energy / Industrial B2B)"
+      level: "Manager/Senior"
+      fit: "primary"
+    - name: "Program / Portfolio Manager"
+      level: "Senior Manager"
+      fit: "secondary"
+    - name: "Digital Transformation Manager"
+      level: "Manager/Senior Manager"
+      fit: "adjacent"
+
+narrative:
+  headline: "Energy industry delivery leader who builds the governance systems that turn $400M+ capital programs into measurable outcomes"
+  exit_story: "14+ years embedded in Canada's energy industry — from BA to portfolio owner to governance architect. At AltaGas, designed and chaired a three-tier governance structure for a platform sitting inside a $432M capital program, where 37% of midstream OPEX is EAM-influenced. At TC Energy, owned a $9M-$15M delivery portfolio across five business functions. Holds a BSc in Computer Science — can engage technical teams directly and translate in both directions."
+  superpowers:
+    - "Governance architecture from blank page to executive adoption (RASCI, committee design, decision rights)"
+    - "Business case framing that connects IT investment to operational cost and capital outcomes"
+    - "Portfolio planning and delivery across $9M-$15M+ annual initiative portfolios"
+    - "Making complex technology decisions legible to non-technical executives (analogy frameworks, decision facilitation)"
+    - "Driving alignment on high-stakes decisions at VP/SteerCo level"
+  proof_points:
+    - name: "AltaGas EAM Governance Design"
+      url: ""
+      hero_metric: "3-tier governance structure across 4 subsidiaries; supports $432M 2026 capital program; enables $28-42M annual cost reduction"
+    - name: "TC Energy Liquids Portfolio"
+      url: ""
+      hero_metric: "$9M-$15M annual portfolio across Engineering, Operations, Supply Chain, Projects & Commercial"
+    - name: "AltaGas 2025-2027 EAM Roadmap"
+      url: ""
+      hero_metric: "4-workstream roadmap governing MAS 9 development; maintenance capital grew 7x since 2021"
+    - name: "Digital Transformation PoC Portfolio"
+      url: ""
+      hero_metric: "$14M portfolio; evaluated WirelessHART networks and Boston Dynamics Spot for industrial use"
+    - name: "Keyera EAM Program"
+      url: ""
+      hero_metric: "One of largest IT programs in company history; 26+ facilities; designed enterprise asset naming standard"
+
+compensation:
+  target_range: "$150K-$190K CAD"
+  currency: "CAD"
+  minimum: "$130K CAD"
+  location_flexibility: "Calgary preferred; open to hybrid and remote-first roles"
+
+location:
+  country: "Canada"
+  city: "Calgary"
+  timezone: "MST (UTC-7)"
+  visa_status: "Canadian citizen -- no sponsorship needed"
+
+cv:
+  output_format: "html"
