@@ -7,73 +7,218 @@
 
 **Hero metrics:** 3-tier governance structure across 4 subsidiaries; supports $432M 2026 capital program; enables $28-42M annual cost reduction potential; 506 active users (count doubled since 2023)
 
-**Context:** AltaGas (with WGL, Semco Energy, Petrogas) needed governance for its EAM platform. Maximo 7.6 was reaching end-of-life. Maintenance capital had grown 7x since 2021 ($13M to $95M estimated 2026). 37% of midstream OPEX is EAM-influenced. Demand tripled while team shrank from 9 to 4 resources.
+**Context:** AltaGas (with WGL, Semco Energy, Petrogas) needed governance for its Enterprise Asset Management (EAM) platform. Maximo 7.6 was reaching end-of-life. Maintenance capital had grown 7x since 2021 ($13M → $95M estimated 2026). 37% of midstream OPEX is EAM-influenced (labour 27%, materials 10%). Demand was tripling while the team shrank from 9 to 4 resources.
 
 **What Erika built:**
-- Three-tier governance: Strategic Leadership Council (quarterly), Program Leadership Council (monthly), Technical Advisory Council (monthly)
-- Full RASCI matrix: Vision & Strategic Priorities, Roadmap & Investments, Organizational Change, Business Needs, Performance Reporting
+- Three-tier governance structure: Strategic Leadership Council (quarterly, governing body), Program Leadership Council (monthly, process owners), Technical Advisory Council (monthly, digital + Maximo teams)
+- Full RASCI matrix covering: Develop Vision & Strategic Priorities, Endorse Roadmap & Investments, Organizational Change Oversight, Validate & Prioritize Business Needs, Monitor & Report Performance
 - Chaired both Strategic Leadership Council AND Program Leadership Council
-- Business case: $432M 2026 capital, 37% OPEX influenced, $28-42M annual cost reduction potential
+- Defined committee membership across Engineering & Ops Services, Operations & Maintenance, Tech Services, OPR&A, OT functions
+
+**Business case framing:**
+- Connected governance directly to $432M in 2026 capital spend
+- Framed four enterprise risks: siloed decision-making, capacity outpaced by demand, inconsistent design principles, low user adoption
+- Showed 37% of OPEX (labour + materials) is EAM-influenced
 - EAM-influenced cost reductions: $28.7M (2021), $42M (2022), $37.6M (2023), $34.9M (2024)
 
-**2025-2027 Roadmap workstreams:** Product Governance, Asset Life Cycle, Work Management, Supply Chain
+**2025-2027 EAM Capabilities Roadmap workstreams:**
+1. Product Governance: Governance Framework, Operating Model Design, MAS 9 Assessment
+2. Asset Life Cycle: Process Family/Locations, PSE, Asset Hierarchy & Classifications
+3. Work Management: Service Requests/Central Work Management, MOC, S&WM Data
+4. Supply Chain (Facilities): Inventory Management, Purchasing, Fusion-Maximo Integration
 
-**SteerCo decisions driven:** Hosting Model (Hybrid Cloud vs. SaaS), Execution Strategy (Upgrade vs. Blank Slate), Migration Strategy (Phased vs. Single Go-Live)
+**Eight enterprise capability domains (full platform scope):**
+Work Management, Asset Lifecycle, Supply Chain, Inventory Management, Operations Management, Health Safety & Environment, Planning & Scheduling, Reliability & Maintenance. The 4-person team supports all 8 domains across 48+ Maximo applications.
 
-**Adoption metrics:** 506 users, 82.13 avg daily logins, users doubled since 2023
+**Key decisions driven through SteerCo:**
+- Hosting Model: Hybrid Cloud vs. SaaS
+- Execution Strategy: Upgrade vs. Blank Slate
+- Migration Strategy: Phased Roll-Out vs. Single Go-Live
+
+**Adoption metrics presented to leadership:**
+- September 2025: Total Users 506, Average Daily Login 82.13, Average Daily Executor Login 49.97
+- Users count doubled since 2023
+- Framed utilization gap (high user count, lower daily login %) as enterprise risk requiring governance intervention
 
 ---
 
 ## AltaGas -- MAS 9 Decision Facilitation (March 2026)
 
-**Hero metrics:** Aligned SteerCo on 3 binary investment decisions using home-buying analogy framework
+**Hero metrics:** Single presentation aligned SteerCo on 3 binary investment decisions; used home-buying analogy to make enterprise software migration accessible to non-technical executives
 
-**What Erika built:** Analogy framework mapping EAM/MAS 9 concepts to home-buying (CMMS=Condo, EAM=House; OOTB=Kitchen fixtures; Configuration=Pantry layout; Customization=Custom cabinetry). Assessment methodology: Current State > Process Improvement > Business & Data Requirements > Application Fit > Change Impact.
+**Context:** AltaGas needed to decide how to migrate from Maximo 7.6 (end-of-life) to Maximo Application Suite 9 (MAS 9). Three decisions with significant cost, complexity, and risk implications needed executive alignment.
+
+**What Erika built:**
+- Real-world analogy framework mapping enterprise software concepts to home-buying decisions
+  - CMMS vs. EAM = Condo vs. House
+  - Capability Streams = Rooms/Living Areas
+  - Out of the Box = Kitchen Includes (standard fixtures)
+  - Configuration = Workflow Dependent Features (pantry layout)
+  - Customization = Custom Cabinetry (panel-ready constraints)
+- Three-decision framework: Rent or Buy (Hosting Model), Build New vs. Buy Existing (Execution Strategy), One or Phased Moves (Migration Strategy)
+- Assessment methodology: Current State → Process Improvement → Business & Data Requirements → Application Fit → Change Impact
+
+**Key insight demonstrated:** Made a technically complex enterprise platform decision legible to non-technical executive stakeholders, accelerating alignment on a decision that had stalled since 2022.
 
 ---
 
-## AltaGas -- EAM Operating Model (February 2026)
+## AltaGas -- EAM Operating Model Design (February 2026)
 
-**Hero metrics:** 29-slide operating model; 5 roles, 9 design tenets, 3 service tracks; 4-person team supporting 500+ users across 48+ applications
+**Hero metrics:** 29-slide operating model defining 5 roles, 9 design tenets, 3 service tracks, project scope, and operational scope for a 4-person team supporting 500+ users across 48+ applications
 
-**9 design tenets:** Right Tool Right Job, Built-In Before Bolt On, Simple Wins, Configure First Code Last, Secure Before You Script, Fast Not Furious, Data With Purpose, Audit What Matters, Action Over Noise
+**Context:** With the team reduced and demand at its peak, Erika designed the complete operating model defining how the team works, makes decisions, and delivers.
 
-**3 service tracks:** Functional Support, Data Management (Bulk Upload), Demand Management (Enhancements & Initiatives with Go/No-Go gates)
+**Role definitions authored:**
+- Business Analyst (Capability Depth, Process Focused)
+- Functional Analyst (Capability Breadth, Operations Focused)
+- Data Analyst (Capability Breadth, Standards Focused)
+- Technical Lead (Digital-owned, Technology Focused)
+- Business Solutions Lead (EAM Capability, Lifecycle Focused) — Erika's own role: single point of accountability for how things get built; defines product direction within SLC boundaries; manages resource allocation across operational support and project delivery
 
-**Business Solutions Lead role (Erika's own):** Single point of accountability for how things get built; defines product direction within SLC boundaries; manages resource allocation
+**9 design tenets established:**
+1. Right Tool, Right Job — use applications as intended, avoid repurposing
+2. Built-In Before Bolt On — start with native features
+3. Simple Wins — clarity over complexity
+4. Configure First, Code Last — configuration first, customization by exception
+5. Secure Before You Script — define access and roles first
+6. Fast, Not Furious — event-driven design, reduce system load
+7. Data With Purpose — meaningful, reportable, traceable to source
+8. Audit What Matters — capture who, when, why for critical actions
+9. Action Over Noise — dashboards and reports for information; don't flood inboxes with FYIs
 
-**Technical debt assessed:** Poor workflow design (200+ hours to undo), overridden OOTB functionality, performance issues (overloaded home pages, unrestricted searches)
+**Three service tracks designed:**
+1. Functional Support: submit → verify business need → demo/train → develop/test → close
+2. Data Management (Bulk Data Upload): submit → verify data accuracy → design/develop → test → deploy → close
+3. Demand Management (Enhancements & Initiatives): submit → assess viability → design/develop → test → Go/No-Go approval → deploy → release notes published
 
-**Erika's initiative load:** 11 concurrent initiatives -- highest on team
+**Technical debt assessment presented:**
+- Poor Workflow Design: original build required 200+ hours to undo; lack of traceability, high support effort, workflow misuse
+- Classifications Functionality Overridden: 20 hours original build, 200+ hours to undo; data integrity issues
+- Performance Issues: overloaded user home pages, unrestricted complex searches, FYI email notification overload
+
+**Current state Maximo Initiatives:**
+- Erika personally accountable for 11 concurrent initiatives (highest on team) covering: EAM Governance, Operating Model, MAS 9 planning (hosting model, execution strategy, migration strategy, MAS 9 digital onboarding)
+- Team collectively supports 48+ Maximo applications across all capability streams
+
+---
+
+## AltaGas -- EAM Platform Capabilities, Delivery Framework & Data Strategy (2025-Present)
+
+**Hero metrics:** Three simultaneous mandates (Fix Operating Model / Drive EAM Strategy / Lead Product Strategy); process-first design philosophy enforced across 8 capability domains; Azure DevOps 5-level work hierarchy with traceability; Microsoft Fabric data strategy design
+
+**Three simultaneous mandates:**
+1. **Fix the Operating Model** — right-sizing how a 4-person team supports 500+ users and 48+ applications; operating model, service tracks, design tenets, role definitions
+2. **Drive EAM Strategy** — 2025-2027 roadmap, MAS 9 migration planning, governance structure, SteerCo decision facilitation
+3. **Lead Product Strategy** — define what gets built, when, and why; connect every initiative to platform adoption, operational outcomes, and capital/OPEX impact
+
+**Process-first design philosophy:**
+Erika advocates for and enforces: define business outcomes → map process flows → assign organizational accountability → establish governance → THEN configure the system. Applied across:
+- Work order workflow design: how work gets created, reviewed, approved, executed, and closed — and by whom
+- Inspection workflow design: how inspections are scheduled, triggered, executed, and recorded
+- Asset hierarchy and classification design: before data entry, define the naming standard and classification logic
+- Access and roles design (Secure Before You Script tenet): define who can do what before building anything
+
+**Work Management Design (specific domain work in 2025-2026):**
+- Designing work order workflows inside Maximo (full lifecycle: creation → review → approval → execution → completion/closure)
+- Designing inspection workflows (how inspections are initiated, what information is captured, how results are recorded)
+- Central Work Management design: how work requests flow from multiple business functions into a unified queue
+- Service Request design: intake, triage, assignment, resolution, and closure standards
+- Management of Change (MOC) workflow design within Maximo context
+
+**Azure DevOps Delivery Framework:**
+- Hierarchy: Epics → Features → User Stories → Test Cases → Defects (five levels)
+- Traceability: every user story traces to a feature; every feature traces to an epic; every test case traces to a user story
+- Standards defined for: how work gets created, what fields are required, what "done" means at each level
+- Outcome metrics tracked: adoption rates, throughput, completion rates — not just delivery velocity
+- Framework gives team and stakeholders consistent visibility from strategic initiative to tested deliverable
+
+**Microsoft Fabric Data Strategy (2025-2026 exploration):**
+- Evaluating Microsoft Fabric as the data backbone for EAM reporting and analytics
+- Designing data pipeline architecture: how Maximo data flows to Fabric for reporting
+- Assessing integration patterns: Maximo → Fabric → Power BI (and direct API patterns)
+- Reporting architecture design: what governance metrics, adoption metrics, and operational KPIs should be surfaced and how
+- Goal: enable evidence-based governance decisions at the SteerCo level (not just narrative reporting)
 
 ---
 
 ## TC Energy -- Liquids Portfolio (August 2021 - September 2024)
 
-**Hero metrics:** $9M-$15M annual portfolio; 5 business functions; VP/Director-level stakeholders; Power Apps + SAP + Power BI integrated planning
+**Hero metrics:** $9M-$15M annual delivery portfolio; 6 business functions (Engineering, Operations, Supply Chain, Projects, Reliability, Commercial); multi-year roadmaps with VP/Director/GM stakeholders; integrated planning spanning Power Apps + SAP + Power BI; Application Stream Lead on Southbow spinoff (2,000+ apps rationalized)
 
-**What Erika delivered:** Annual portfolio planning with Directors/VPs; executive dashboards; integrated demand-to-delivery visibility; BA coaching; multi-team delivery oversight
+**Context:** TC Energy Liquids Business Unit needed portfolio planning and delivery oversight. Role sat at the intersection of business strategy, product management, portfolio governance, and technology delivery — not owning a single application, but helping leadership determine what to fund, what to prioritize, how to allocate resources, whether investments delivered value, and how technology roadmaps connected to business objectives.
+
+**What Erika delivered:**
+
+*Portfolio Strategy & Planning:*
+- Annual portfolio planning cycle with Directors, General Managers, and VPs: intake, prioritization, roadmap, investment plan
+- Multi-year capability roadmapping: identifying gaps, sequencing investments, assessing dependencies, looking beyond annual cycles
+- Balancing competing demands: strategic objectives, regulatory requirements, operational risk, reliability, resource and budget constraints
+
+*Product Management Governance:*
+- Drove product management maturity across the portfolio — established practice of defining business outcomes before technology solutions
+- Signature approach: pushed teams to ask "what business problem are we solving?" rather than "what features do we need?"
+- Worked with Product Managers to ensure products had defined business outcomes, clear objectives, measurable value propositions, and sustainable roadmaps
+- Helped shift leadership discussions from project status reporting toward value realization
+
+*Investment Governance & Demand Management:*
+- Designed framework covering: demand intake → business case evaluation (strategic alignment, value, cost, risk, resources) → funding decisions → delivery oversight
+- Provided leadership visibility into investment requests, funding allocations, priority changes, and portfolio impacts
+- Facilitated strategic discussions to build alignment across stakeholder groups and communicate portfolio health
+
+*Reporting & Data Strategy:*
+- Executive-level portfolio dashboards in Power BI: portfolio health, initiative progress, risks, dependencies, business outcomes
+- Integrated planning approach: demand intake (Power Apps) → budgeting (SAP) → delivery tracking (Power BI) — end-to-end visibility from business request to funded, delivered work
+- Explored SAP financial integration concepts to connect funding, delivery status, and business priorities into a single decision-making framework
+
+**Southbow Spinoff — Application Stream Lead:**
+TC Energy spun off its Liquids business as Southbow Energy in 2024. Erika served as Application Stream Lead on the spinoff program:
+- Led application blueprinting and rationalization of 2,000+ applications scoped for a 10,000-person company down to fit a 600-person organization
+- Proposed migrating from the planned AWS and SAP architecture to Azure and Dynamics 365
+  - Rationale: organizational scale (600 people doesn't justify enterprise SAP licensing); Power Platform interoperability with Microsoft 365 productivity tools; better scaling discounts at smaller footprint
+  - Recommendation accepted by leadership; changed the platform direction for the spinoff
+- Demonstrates: technology evaluation at strategic (not feature) level; ability to challenge inherited assumptions; understanding of total cost and organizational fit
+
+**Key capability demonstrated:** Financial fluency at portfolio level — evaluating and prioritizing $9M-$15M of annual investment against strategic business objectives, not just tracking delivery. Plus application estate rationalization and strategic technology selection at spinoff scale.
 
 ---
 
 ## 222529 Alberta Inc. -- Digital Transformation Consulting (November 2019 - August 2021)
 
-**Hero metrics:** $14M PoC portfolio; WirelessHART sensor networks + Boston Dynamics Spot robotic inspection evaluation
+**Hero metrics:** $14M PoC portfolio; evaluated WirelessHART sensor networks and Boston Dynamics Spot robotic inspection for industrial maintenance organizations
 
-**What Erika delivered:** Digital transformation intake/evaluation framework; business cases and value frameworks; technical feasibility and scalability assessments
+**Context:** Independent consulting practice focused on digital transformation opportunities in energy/industrial maintenance organizations.
+
+**What Erika delivered:**
+- Intake and evaluation framework for digital transformation opportunities
+- Business cases, value frameworks, and prioritization models for PoC investment decisions
+- Evaluated WirelessHART sensor networks: wireless instrumentation for real-time equipment monitoring in industrial environments
+- Evaluated Boston Dynamics Spot: robotic inspection for hazardous or remote facility areas
+- Facilitated alignment between operational stakeholders and technical teams on pilot objectives and success criteria
+- Assessed technical feasibility, scalability, and integration for long-term adoption
+
+**Key capability demonstrated:** Ability to evaluate emerging technology through an operational lens — not "what can this technology do" but "what operational problem does this solve and can we scale it."
 
 ---
 
 ## Keyera Corporation -- EAM & Reliability Program (July 2014 - November 2019)
 
-**Hero metrics:** 26+ facilities; one of Keyera's largest IT programs; enterprise asset naming standard adopted company-wide; proposed and got new cross-functional team created
+**Hero metrics:** 26+ facilities; one of the largest IT programs in Keyera's history; enterprise asset naming standard adopted across equipment tagging and multiple systems; proposed and got a new cross-functional team created
 
-**What Erika delivered:** Enterprise asset/location naming standard; proposed Asset Management Systems team (structure + operating model, implemented by leadership); requirements + process design across 26+ facilities; BA mentorship and field site relationship building
+**Context:** Keyera's enterprise asset management and reliability program — a multi-year, company-wide implementation touching Operations, Engineering, Maintenance, IT, and field sites.
+
+**What Erika delivered:**
+- Enterprise asset and location naming standard: designed and implemented the consistent structure adopted across equipment tagging and multiple enterprise systems
+- Proposed creation of Asset Management Systems team: identified accountability gap, defined team structure and operating model, leadership implemented the function
+- Requirements gathering and process design across 26+ facilities: Operations, Engineering, Maintenance, IT stakeholder alignment
+- Mentored Business Analysts on stakeholder engagement; built grassroots field support that sustained program adoption
+- Led Maximo support function (Team Lead, 2012-2014): issue resolution, enhancement prioritization, stakeholder engagement, support process design
+
+**Key capability demonstrated:** Seeing organizational gaps and proposing structural solutions — not just executing within existing structures but identifying when the structure itself is the problem.
 
 ---
 
 ## Shell Canada -- Service Operations (2010-2013)
 
-**Hero metrics:** ~$90K annual cost savings; KPI reporting for service desk SLA management
+**Hero metrics:** ~$90K in annual cost savings from service management improvement initiatives; KPI reporting for service desk performance and SLA management
 
-**PI System experience:** Direct OSIsoft/AVEVA PI System experience -- relevant to AVEVA PM roles and energy companies using PI as operational data backbone
+**PI System experience:** Developed KPI reporting and analytics for service desk performance — direct experience with PI System (OSIsoft/AVEVA), which is the operational data backbone for most energy companies. Relevant to AVEVA/OSIsoft PM roles.
