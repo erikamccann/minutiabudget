@@ -20,7 +20,7 @@ target_roles:
   archetypes:
     - name: "IT / Digital Manager (Energy Industry)"
       level: "Manager/Senior Manager"
-      fit: "primary"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
     - name: "Product Manager (Energy / Industrial B2B)"
       level: "Manager/Senior"
       fit: "primary"
@@ -40,13 +40,15 @@ narrative:
     - "Portfolio planning and delivery across $9M-$15M+ annual initiative portfolios"
     - "Making complex technology decisions legible to non-technical executives (analogy frameworks, decision facilitation)"
     - "Driving alignment on high-stakes decisions at VP/SteerCo level"
+    - "Process-first design — defining business outcomes, process flows, and decision rights before systems are configured"
+    - "Cross-functional translation across operations, engineering, IT, and business stakeholders across 8+ enterprise capability domains"
   proof_points:
     - name: "AltaGas EAM Governance Design"
       url: ""
       hero_metric: "3-tier governance structure across 4 subsidiaries; supports $432M 2026 capital program; enables $28-42M annual cost reduction"
     - name: "TC Energy Liquids Portfolio"
       url: ""
-      hero_metric: "$9M-$15M annual portfolio across Engineering, Operations, Supply Chain, Projects & Commercial"
+      hero_metric: "$9M-$15M annual portfolio across Engineering, Operations, Supply Chain, Projects, Reliability & Commercial; Application Stream Lead on Southbow spinoff (2,000+ apps rationalized; Azure/Dynamics over AWS/SAP recommendation accepted)"
     - name: "AltaGas 2025-2027 EAM Roadmap"
       url: ""
       hero_metric: "4-workstream roadmap governing MAS 9 development; maintenance capital grew 7x since 2021"
@@ -71,3 +73,4 @@ location:
 
 cv:
   output_format: "html"
+  # canva_resume_design_id: "DAxxxxxxxxx"

@@ -7,7 +7,7 @@
 
 ## Professional Summary
 
-Digital delivery and program leader with 14+ years embedded in Canada's energy industry — from enterprise asset management at Keyera to $15M portfolio ownership at TC Energy to governance architecture at AltaGas. Known for building the systems that others work inside: governance frameworks adopted at the executive level, operating models that survive leadership changes, and roadmaps that connect technology investment to measurable business outcomes. Holds a BSc in Computer Science, enabling direct engagement with technical teams without a translator.
+Digital delivery and program leader with 14+ years embedded in Canada's energy industry — from enterprise asset management at Keyera to $15M portfolio ownership at TC Energy to governance architecture at AltaGas. Builds the systems others work inside: governance frameworks adopted at the executive level, operating models that survive leadership changes, and roadmaps that connect technology investment to measurable business outcomes. Advocates for process-first design — defining business outcomes, workflows, and decision rights before systems are configured. Holds a BSc in Computer Science, enabling direct engagement with technical teams and translation in both directions across operations, engineering, IT, and business stakeholders.
 
 ## Work Experience
 
@@ -17,24 +17,29 @@ April 2025 -- Present
 
 - Designed and chaired a three-tier EAM governance structure — Strategic Leadership Council, Program Leadership Council, and Technical Advisory Council — adopted across AltaGas, WGL, Semco Energy, and Petrogas, defining decision rights, RASCI accountability, and committee cadence
 - Built the business case for enterprise governance against $432M in 2026 capital spend and 37% of midstream OPEX, positioning the framework to enable $28-42M in annual cost reductions across labour and materials
-- Developed the 2025-2027 EAM Capabilities Roadmap across four workstreams (Product Governance, Asset Life Cycle, Work Management, Supply Chain), governing a Maximo Application Suite 9 (MAS 9) development and implementation program
+- Developed the 2025-2027 EAM Capabilities Roadmap spanning eight enterprise capability domains — Work Management, Asset Lifecycle, Supply Chain, Inventory Management, Operations Management, Health Safety & Environment, Planning & Scheduling, and Reliability & Maintenance — structured around four delivery workstreams and governing the Maximo Application Suite 9 (MAS 9) implementation program
 - Designed and presented a decision-facilitation framework for executive leadership to navigate the MAS 9 migration — using a real-world home-buying analogy to make hosting model (Hybrid Cloud vs. SaaS), execution strategy (Upgrade vs. Blank Slate), and migration strategy (Phased Roll-Out vs. Single Go-Live) decisions accessible to non-technical stakeholders, driving SteerCo alignment on all three
 - Tracked and presented platform adoption metrics to executive leadership — 506 active users, 82 average daily logins — framing low adoption alongside capacity constraints and inconsistent design principles as drivers of enterprise risk
 - Led a cross-functional delivery team (Business Analysts, Systems Analysts, Developers) through a period where demand tripled while team size reduced from 9 to 4 resources, building the governance case to address the capacity gap
 - Designed the EAM Operating Model for the team — defining role accountabilities (Business Analyst, Functional Analyst, Data Analyst, Technical Lead, Business Solutions Lead), nine design tenets governing how technical decisions are made, and a service model clarifying how demand flows from business request to delivery
+- Championed a process-first design philosophy across the EAM program — defining business outcomes, process flows, and organizational accountability before any system configuration decision, reducing rework risk and improving alignment between business expectations and delivered capability
+- Established a delivery framework in Azure DevOps defining a five-level work hierarchy (Epics → Features → User Stories → Test Cases → Defects), traceability standards, and outcome-based metrics — providing consistent visibility from strategic initiative through to tested deliverable for the team and stakeholders
 - Documented and presented a technical debt assessment to leadership covering poor workflow design (original build required 200+ hours to undo), overridden OOTB functionality, and platform performance issues — framing remediation as a prerequisite for the MAS 9 migration
+- Led the design of a Microsoft Fabric data strategy for EAM reporting — evaluating data pipeline architecture, integration patterns between Maximo and enterprise data sources, and reporting design to enable evidence-based governance and investment decisions
 - Personally accountable for 11 concurrent initiatives spanning EAM governance, operating model design, and MAS 9 planning while team capacity was at its lowest point
 
 ### TC Energy -- Calgary, AB
 **Liquids Portfolio Product Manager | Customer Engagement & Product Strategy**
 August 2021 -- September 2024
 
-- Owned portfolio planning and delivery across a $9M-$15M annual portfolio of initiatives supporting Engineering, Operations, Supply Chain, Projects, and Commercial functions within the Liquids Business Unit
-- Partnered with Directors and Vice Presidents to evaluate, prioritize, and align proposed initiatives against strategic business objectives, developing multi-year roadmaps and investment plans
-- Oversaw execution across multiple product and project teams, ensuring alignment between strategic objectives, delivery outcomes, and operational adoption
-- Developed executive-level portfolio reporting and performance dashboards, providing visibility into initiative progress, risks, dependencies, and business outcomes
+- Owned portfolio planning and delivery across a $9M-$15M annual portfolio of initiatives supporting Engineering, Operations, Supply Chain, Projects, Reliability, and Commercial functions within the Liquids Business Unit
+- Partnered with Directors, General Managers, and Vice Presidents to evaluate, prioritize, and align proposed initiatives against strategic business objectives — balancing strategic alignment, regulatory requirements, operational risk, and resource constraints — developing multi-year capability roadmaps and investment plans
+- Drove product management maturity across the portfolio — establishing a discipline of defining business outcomes and problems before technology solutions, shifting leadership discussions from feature requests to value realization
+- Designed an investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight — giving leadership consistent visibility from intake through funded execution
+- Developed executive-level portfolio reporting and performance dashboards using Power BI, providing visibility into portfolio health, initiative progress, risks, dependencies, and business outcomes
 - Designed an integrated planning approach connecting demand intake, budgeting, and project execution data across Power Apps, SAP, and Power BI, improving visibility from initial business request through funded and delivered work
 - Coached Business Analysts across the portfolio on requirements management, stakeholder engagement, and workshop facilitation
+- Served as Application Stream Lead on the TC Energy / Southbow spinoff — led application blueprinting and rationalization of 2,000+ applications scoped for a 10,000-person organization down to fit a 600-person company; recommended migrating from the planned AWS and SAP architecture to Azure and Dynamics 365, based on organizational scale, Power Platform interoperability with productivity tools, and total cost optimization
 
 ### 222529 Alberta Inc. (Independent Consulting Practice)
 **Director, Business Analysis Consulting | Digital Transformation Programs**
