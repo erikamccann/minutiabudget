@@ -3,7 +3,7 @@
 **Date:** 2026-05-29
 **URL:** https://www.bennettjones.com/Careers/Business-Services/Engineering-Manager-Applications-BI-AI-Enablement-Calgary
 **Archetype:** IT/Digital Manager + AI Transformation (hybrid)
-**Score:** 2.5/5
+**Score:** 2.8/5
 **Legitimacy:** High Confidence
 **PDF:** pending
 
@@ -28,7 +28,7 @@
 ## B) Match with CV
 
 | JD Requirement | CV Match | Source |
-|----------------|----------|---------|
+|----------------|----------|--------|
 | CS/IT degree | ✅ Strong | BSc Computer Science, University of Manitoba |
 | 5+ years management experience | ✅ Strong | AltaGas team lead (cross-functional, 4-person), Keyera Team Lead 2012-2014, TC Energy portfolio ownership |
 | Led software engineers / BI analysts | ✅ Partial | AltaGas: "Led a cross-functional delivery team (Business Analysts, Systems Analysts, Developers)" — not pure eng team but includes devs |
@@ -131,19 +131,21 @@ Bennett Jones is one of Canada's most established law firms. No layoff signals. 
 
 ## OVERALL RECOMMENDATION: Do Not Apply
 
-**Score: 2.5/5** — Below the 3.5 apply threshold.
+**Score: 2.8/5** — Below the 3.5 apply threshold. Revised slightly upward from the original 2.5.
 
 **Reasons:**
 
-1. **Industry deal-breaker.** Erika's profile explicitly flags companies outside energy/industrial/resources as a deal-breaker "unless PM role with strong B2B business acumen fit." This is an Engineering Manager role, not a PM role. The deal-breaker applies.
+1. **Industry framing updated but concern remains.** The deal-breaker is now "preferred not required" — professional services / law firm tech is not on the explicit fail list, but it's also not on the explicit pass list (ERP, supply chain, construction/field ops software, industrial analytics, etc.). Law firm IT has no operational complexity adjacency and no domain advantage for Erika. She'd be competing as a generalist against candidates with legal operations experience.
 
-2. **No domain advantage.** Erika's primary differentiator is 14 years of embedded energy industry knowledge. At Bennett Jones, that depth is irrelevant. She'd be competing as a generalist against candidates with legal operations experience.
+2. **No domain advantage.** Erika's primary differentiator is 14 years of embedded energy industry knowledge. At Bennett Jones, that depth is irrelevant — and the new proof points (OT/SCADA, procure-to-pay, OTC derivatives, GL integration) are even more irrelevant to a law firm context.
 
 3. **Compensation risk.** Law firm IT compensation typically runs below energy sector. Realistic range is $120K–$155K — puts the floor at or below her $130K walk-away.
 
-4. **Narrative damage.** A lateral move to a law firm would dilute her energy industry positioning without building a credible new narrative. Future energy roles would require explanation.
+4. **Narrative damage.** A lateral move to a law firm would dilute her energy/industrial positioning without building a credible new narrative. Future energy or construction tech PM roles would require explanation.
 
 5. **Skills gap in technical depth.** The "solution architecture" requirement leans more toward application code architecture than her functional/business architecture work. Manageable, but she'd be starting from a position of weakness on a core requirement.
+
+**Why the score moved from 2.5:** The deal-breaker is now a softer criterion. Bennett Jones is B2B (it sells legal services and the tech team serves internal/professional users), and the Engineering Manager archetype is one of Erika's four target archetypes. The score reflects that the role type is right; the industry and comp concerns are what hold it below threshold.
 
 ---
 

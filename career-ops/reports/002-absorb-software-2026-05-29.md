@@ -28,7 +28,7 @@
 ## B) Match with CV
 
 | JD Requirement | CV Match | Source |
-|----------------|----------|---------|
+|----------------|----------|--------|
 | 7+ years B2B SaaS PM experience | ⚠️ Gap | Erika's PM experience is enterprise IT portfolio management (energy industry), not B2B SaaS product management. TC Energy "Liquids Portfolio Product Manager" is adjacent but structurally different. |
 | Translate insights into strategy | ✅ Strong | $432M business case, OPEX analysis; TC Energy portfolio prioritization framework; evidence-based governance |
 | Financial modeling and business cases | ✅ Strong | Business case showing 37% of OPEX EAM-influenced; $28-42M cost reduction quantification; TC Energy $9M-$15M portfolio investment decisions |
@@ -131,7 +131,7 @@ If pursuing (not recommended):
 
 1. **Core requirements gap.** The role requires 7+ years of B2B SaaS PM experience. Erika's PM background is enterprise IT portfolio management in energy — structurally different. SaaS-native hiring managers will identify this gap immediately.
 
-2. **Wrong industry.** EdTech/LMS has no overlap with Erika's energy/operations expertise. She has no domain advantage here — she'd be competing as an outsider in an unfamiliar product category.
+2. **Insufficient industry fit.** EdTech/LMS for enterprise corporate training is B2B, but lacks the operational complexity adjacency that would make Erika's domain expertise transferable. She has no domain advantage here — she'd be competing as an outsider in an unfamiliar product category. (Note: the industry deal-breaker is now a softer criterion, but enterprise LMS is not on the explicit pass list of relevant industries.)
 
 3. **IC role.** The role has no direct reports (dotted-line only). Her profile flags "pure individual contributor roles with no team leadership or strategic component" as a deal-breaker. The segment ownership partially offsets this, but it's not a management role.
 
