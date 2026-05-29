@@ -32,8 +32,8 @@ Work Management, Asset Lifecycle, Supply Chain, Inventory Management, Operations
 
 **Key decisions driven through SteerCo:**
 - Hosting Model: Hybrid Cloud vs. SaaS
-- Migration Strategy: Phased Roll-Out vs. Single Go-Live
 - Execution Strategy: Upgrade vs. Blank Slate
+- Migration Strategy: Phased Roll-Out vs. Single Go-Live
 
 **Adoption metrics presented to leadership:**
 - September 2025: Total Users 506, Average Daily Login 82.13, Average Daily Executor Login 49.97
@@ -348,6 +348,180 @@ Keyera was the origin of the career themes that later became portfolio governanc
 - **Observability:** InfluxDB stores all sensor readings at 30-second intervals; Grafana dashboards for energy consumption trends, temperature patterns, occupancy heatmaps, device availability
 
 **Key capability demonstrated:** Systems architecture thinking applied to physical infrastructure — the same discipline as enterprise architecture but at home scale. Network segmentation, MQTT pub/sub messaging patterns, REST API integration, event-driven design, hardware firmware development, and reliability engineering are all directly applicable to industrial IoT and field operations product domains. Demonstrates hands-on technical depth that supports credibility in conversations with engineering teams about what is and isn't technically feasible.
+
+---
+
+## Keyera -- Financial Systems & GL Integration (2014-2019)
+
+**Hero metrics:** 1M+ valid GL coding combinations configured; Qbyte ERP integration built with Maximo; AFE + AFE item + cost center + major/minor account structure; chart of accounts knowledge covering debit/credit, control accounts (inventory, holding, clearing)
+
+**Context:** At Keyera, Erika led the implementation of GL account validation inside Maximo to enforce proper financial coding at the point of work order creation and purchasing activity. This required deep knowledge of how financial accounts work in an energy company and how Maximo integrates with the ERP (Qbyte — a financial ERP widely used in Canadian oil and gas).
+
+**What Erika built:**
+- Turned on GL account validation in Maximo — ensuring only valid account combinations could be entered, preventing downstream posting errors and financial miscodings that would require journal entry corrections
+- Configured and maintained 1M+ valid GL coding combinations covering: AFE (Authorization for Expenditure), AFE Item, Cost Center, Major Account, Minor Account
+- Understood and applied the full chart of accounts structure: revenue accounts, expense accounts, capital accounts, debit vs. credit logic, control accounts for inventory (inventory asset, receiving clearing, AP trade payable), holding accounts, and clearing accounts used in the procure-to-pay cycle
+- Managed the Maximo-to-Qbyte financial integration: ensuring work order charges, purchase orders, and receiving transactions posted to the correct accounts in the general ledger
+- AFE workflow knowledge: how capital projects are authorized, how work gets coded to AFE vs. expense, how budget tracking works at the AFE and cost center level
+
+**Key accounting concepts applied:**
+- **Inventory control accounts:** Inventory asset account (debit when received into stock), cost of goods (debit when issued from stock), AP trade payable (credit when PO confirmed). The three-way flow ensures stock on hand matches the balance sheet
+- **Holding accounts:** Used when goods are received but invoice hasn't arrived — the GR/IR (goods receipt/invoice receipt) holding account prevents premature AP posting
+- **AFE vs. expense coding:** Capital work (new construction, major modifications) codes to AFE (capitalized); routine maintenance codes to expense cost centers. Getting this wrong has material financial reporting implications
+- **Major/minor account structure:** Keyera's Qbyte CoA used a major/minor hierarchy within cost centers — Erika mapped every Maximo transaction type to the correct major/minor combination
+
+**Key capability demonstrated:** Hands-on financial systems integration — not just "I managed a budget" but actual GL structure design, control account mechanics, and ERP integration for financial data accuracy. Speaks fluently to CFO-level concerns about financial integrity, audit trail, and ERP posting accuracy.
+
+---
+
+## Keyera -- Supply Chain & Procure-to-Pay Workflow (2014-2019)
+
+**Hero metrics:** End-to-end procure-to-pay workflow designed; financial authority approval based on dollar limits implemented; 3-way match (PO/receipt/invoice) logic built; full PR → PO → receiving → invoicing cycle mapped and configured
+
+**Context:** As BA on a supply chain project at Keyera, Erika designed and implemented the purchasing workflow inside Maximo and its integration with the financial system. The scope covered the full procure-to-pay cycle from requisition to invoice payment.
+
+**What Erika built:**
+
+*Financial authority and approval workflow:*
+- Designed a financial authority approval matrix routing purchase requisitions and purchase orders through approval based on dollar thresholds (different approval limits by role — technician, supervisor, manager, director, VP)
+- Integrated contracts into the approval workflow: purchases against existing blanket contracts routed differently than new vendor purchases
+- Modeled approval limits for different spend categories (materials vs. services vs. capital vs. operating)
+
+*Full procure-to-pay cycle:*
+- **Purchase Requisition (PR):** Who can raise a PR, what information is required (GL coding, AFE/cost center, description, vendor preference, urgency), approval routing
+- **Purchase Order (PO):** Conversion from approved PR to PO, vendor selection, pricing, delivery terms, PO confirmation to vendor
+- **Receiving:** Goods receipt process in Maximo — partial receipts, over-receipts, quality holds, storeroom receipt vs. direct delivery. Receipt triggers GR/IR holding account posting
+- **Invoice matching:** 3-way match logic — PO quantity/price, receipt quantity, and invoice quantity/price must align within tolerance. Exceptions (quantity differences, price variances) routed for exception handling before AP payment release
+- **Inventory integration:** How purchased stock items are received into Maximo storeroom inventory vs. direct-charge non-stock items. Storeroom receipts update inventory on-hand and trigger asset/account postings
+
+*Contracts integration:*
+- Blanket purchase orders and standing offer agreements — how contract-based purchases flow through the PR/PO process differently from spot purchases
+- Contract pricing integration: ensuring Maximo purchase orders pulled correct rates from contract master data
+
+**Key capability demonstrated:** Deep procure-to-pay domain knowledge — not just the workflow but the financial mechanics underneath it. Can speak to purchasing workflow design, financial controls, 3-way match logic, and inventory accounting in a way that's relevant to ERP PM roles, supply chain software PM roles, and enterprise procurement platform implementations.
+
+---
+
+## Keyera -- Cloud Historian / OT Security Architecture (2014-2019)
+
+**Hero metrics:** BA on Honeywell centralized corporate cloud historian implementation; bridged OT-IT security boundary for DCS/SCADA data moving to cloud; designed data flow across DMZ → business layer → cloud infrastructure layers
+
+**Context:** Erika was BA for Keyera's implementation of a centralized corporate cloud historian from Honeywell — a platform that aggregated process data (DCS and SCADA) from multiple facilities into a centralized cloud repository for analytics, reporting, and remote access.
+
+**Why this was complex:**
+
+*OT data volume:* Process historians capture data at high frequency (1-second intervals or faster for some tags) across thousands of process points (pressure, temperature, flow, level, valve states, equipment status). A multi-facility historian aggregating DCS/SCADA data generates massive volumes — the data architecture had to handle ingestion throughput, retention policies, and query performance at scale.
+
+*OT security architecture:*
+- **Purdue model awareness:** OT networks follow a layered security architecture (Purdue Reference Model): Level 0-2 (field devices, PLCs, DCS) → Level 3 (process control/SCADA) → DMZ (demilitarized zone) → Level 4 (business network) → cloud
+- **The DMZ boundary:** Data doesn't flow directly from OT networks to the cloud. It must traverse the DMZ — a security perimeter with controlled, one-directional data flow (OT → DMZ historian buffer → business layer → cloud). No reverse path from cloud back into OT
+- **What Erika designed:** Data flow architecture from DCS/SCADA historian (on-premise, at facility level) → DMZ buffer → Honeywell cloud platform. Each layer had different security requirements, firewall rules, and data handling controls
+- **One-way diode principle:** Data replication from OT to cloud was one-directional — OT data flows out, no commands or writes flow back in. This prevents a cloud compromise from affecting process control systems
+- **Security review requirements:** Moving OT data to cloud required review by cybersecurity and OT security teams; Erika facilitated the security assessment, documented the data flow, and ensured the architecture was accepted before implementation
+
+*Business requirements for historians:*
+- Which process tags to replicate (not all tags — prioritizing operational, reliability, and compliance-relevant data points)
+- Retention policies (short-term high-resolution vs. long-term aggregated)
+- Access model: who can query the historian and what visualization tools connect to it (PI Vision/DataLink equivalent in Honeywell ecosystem)
+- Integration with existing KPI reporting
+
+**Key capability demonstrated:** OT/IT boundary security design and cloud data architecture for process historians. Directly relevant to industrial IoT, SCADA/DCS integration, and operational data platform PM roles. Speaks the language of OT security teams and understands why "just put it in the cloud" is never simple for industrial operations data.
+
+---
+
+## TC Energy -- Project Portfolio Management Application & SaaS Governance (2021-2024)
+
+**Hero metrics:** Implemented PPM application covering FEED-to-execution project lifecycle; designed CapEx vs. OpEx classification rules; structured CSOX controls for financial data integration; applied SOC 2 Type 2 requirements as enterprise procurement criteria for SaaS tools; designed data portability and SaaS off-ramp requirements
+
+**Context:** As part of TC Energy's portfolio work, Erika was PM on the implementation of a Project Portfolio Management (PPM) application — a SaaS platform used to manage the lifecycle of technology initiatives from FEED through execution, funding, and delivery. This project required deep engagement with financial governance, enterprise software procurement requirements, and accounting treatment for SaaS investments.
+
+**CapEx vs. OpEx classification:**
+- **FEED (Front End Engineering and Design):** The pre-project phase where requirements, scope, and feasibility are assessed before capital approval. FEED costs are typically expensed (OpEx) — they're exploratory. Once a project is approved and moves into execution, costs shift to capitalized (CapEx)
+- **The SaaS grey area:** Under accounting standards (IFRS/ASPE), traditional software licenses are capitalized. SaaS subscriptions are harder — you don't own the software, you're renting access. IFRS and CPA Canada guidance generally requires SaaS subscription fees to be expensed as incurred; only certain implementation costs (configuration, integration) may be capitalizable depending on the phase
+- **Off-ramp and data ownership:** If a SaaS contract ends, you need your data back. Erika designed data portability requirements into procurement — export format, retention period, migration assistance — so the company wasn't locked in without an exit path
+- **Who owns the data:** When customer data (operational data, financial data, project records) lives in a SaaS platform, the contract must clearly specify data ownership, data residency, and what happens to data on contract termination
+
+**CSOX (Canadian equivalent of SOX):**
+- When a SaaS application processes or integrates with financial data that flows into the ERP and affects reported financial numbers, it falls within the scope of Canadian internal controls over financial reporting (CSOX)
+- Erika structured the CSOX control requirements for the PPM application's financial integration: how budget data flowed from the PPM to SAP, what controls ensured data integrity, who had access to modify financial records, and what audit trail existed
+- Integration control design: input validation, reconciliation procedures, segregation of duties, change management controls for financial data interfaces
+
+**SOC 2 Type 2 as enterprise procurement requirement:**
+- Any SaaS application handling sensitive operational or financial data needs SOC 2 Type 2 certification as a minimum enterprise procurement requirement
+- SOC 2 Type 2 (vs. Type 1): Type 1 assesses controls at a point in time; Type 2 assesses that controls operated effectively over a period (typically 6-12 months). Enterprise buyers require Type 2 because it demonstrates sustained security posture, not just a snapshot
+- Erika applied this as a procurement gate: vendors without current SOC 2 Type 2 reports required additional security assessment before approval
+- Trust Service Criteria covered: Security, Availability, Processing Integrity, Confidentiality, Privacy
+
+**Key capability demonstrated:** Enterprise-grade SaaS procurement and governance — understands what the finance team, internal audit, and CISO care about when evaluating SaaS. Can evaluate vendor contracts, structure procurement requirements, design data governance for cloud integrations, and apply accounting treatment rules for software investments. This depth is rare in PMs and directly relevant to enterprise SaaS companies selling into large industrial organizations.
+
+---
+
+## TC Energy -- Alarm Management System (2021-2024)
+
+**Hero metrics:** BA on implementation of alarm management analytics platform; addressed alarm chatter, suppression, and persistence across TC Energy's control systems; enabled systematic alarm rationalization and configuration improvement
+
+**Context:** TC Energy operates extensive pipeline and facilities infrastructure monitored through control systems (DCS/SCADA/PCS). Industrial control systems generate alarms to alert operators when process conditions deviate from normal ranges — but poorly configured alarms create noise (chatter, nuisance alarms, flood events) that reduces operator effectiveness and creates safety risk. Erika was BA for implementing an alarm management analytics platform to address this.
+
+**Key domain knowledge:**
+- **Alarm chatter:** An alarm that triggers and resets repeatedly in a short period without operator action — typically indicates a process variable oscillating around a setpoint. Chattering alarms consume operator attention and desensitize operators to real alarms. Root cause is usually poor deadband configuration or setpoint placement
+- **Alarm suppression:** Intentionally inhibiting alarms under specific conditions (e.g., during startup sequences, maintenance activities, or when dependent alarms would cascade). Uncontrolled suppression is a regulatory and safety risk — the platform tracked suppression duration and flagged alarms suppressed beyond acceptable thresholds
+- **Alarm persistence / standing alarms:** Alarms that activate and stay active without resolution for extended periods. Often indicates an accepted but unaddressed process condition — dangerous because operators normalize them. The platform identified standing alarms and generated rationalization work orders
+- **Alarm flood:** A condition where so many alarms activate simultaneously that operators cannot process and respond to them — typically triggered by a single process upset that cascades. Alarm management analytics helps identify which alarms drive flood events so configurations can be modified
+
+**What the implementation delivered:**
+- Analytics platform ingesting alarm event historian data — time-stamped alarm activation, acknowledgement, and reset events from multiple control systems
+- Reporting on worst-actor alarms: alarms with highest frequency, longest standing duration, highest operator burden
+- Rationalization workflow: platform-generated work orders for alarm configuration review and modification
+- KPI dashboards tracking alarm performance over time: alarms per operator per hour (EEMUA 191 benchmark), suppression inventory, standing alarm count
+
+**Key capability demonstrated:** OT/process safety domain knowledge at the control system layer. Understands how alarm management connects to functional safety requirements (IEC 61511), operator effectiveness, and regulatory expectations. Directly relevant to industrial software PM roles targeting SCADA, DCS, or operations management platforms.
+
+---
+
+## TC Energy -- OTC Derivatives Regulatory Reporting (2021-2024)
+
+**Hero metrics:** BA on automated OTC derivatives reporting implementation; integrated with ICE (Intercontinental Exchange) and CME (Chicago Mercantile Exchange) trade repositories; met CFTC/CSA regulatory reporting obligations for energy derivatives trading
+
+**Context:** TC Energy's commercial function trades energy derivatives (natural gas swaps, basis swaps, options) to hedge commodity price exposure on its pipeline and storage business. Under post-2008 financial regulation (Dodd-Frank in the US, National Instrument 94-102 in Canada), OTC derivatives must be reported to trade repositories. Erika was BA for implementing the automated reporting system that met these obligations.
+
+**Key domain knowledge:**
+- **OTC derivatives in energy:** Natural gas basis swaps, fixed-for-float swaps, and options used by energy companies to lock in pricing and manage basis risk between pipeline delivery points. Not speculative trading — commercial hedging of physical commodity price exposure
+- **Trade repository reporting requirements:** Regulatory rules require OTC derivatives to be reported to approved trade repositories (ICE, CME) within specific timeframes (T+1 or same-day for new trades, and ongoing lifecycle event reporting for amendments, terminations, and valuations)
+- **What gets reported:** UTI (Unique Trade Identifier), counterparty LEIs, notional amount, maturity date, underlying commodity, price, clearing status, collateral details, valuation (mark-to-market) on a regular basis
+- **Integration architecture:** The reporting system pulled trade data from TC Energy's energy trading and risk management (ETRM) system, transformed it into the required regulatory reporting format (FpML or CSV schema per repository spec), and submitted via ICE/CME's reporting APIs
+- **CSOX implications:** Derivatives reporting affects balance sheet values (mark-to-market positions) — the reporting system's data integrity controls fell within financial reporting CSOX scope
+
+**What Erika delivered as BA:**
+- Requirements for the trade data extraction from ETRM: which fields, what transformation logic, how to handle amended vs. new trades
+- Integration design with ICE and CME reporting APIs: authentication, submission format, acknowledgement handling, rejection handling and resubmission
+- Exception management workflow: what happens when a trade fails validation at the repository — alert routing, investigation workflow, resubmission procedure within regulatory deadlines
+- Reconciliation controls: ensuring the trades submitted to repositories matched the company's internal trade records (avoiding reportable discrepancies)
+- UAT and go-live support: tested reporting flows against ICE/CME test environments before production submission
+
+**Key capability demonstrated:** Financial regulatory compliance and capital markets integration experience — rare for someone in the energy/industrial domain. Demonstrates ability to work on systems where errors have regulatory and financial reporting consequences, and to design controls adequate for external reporting obligations.
+
+---
+
+## TC Energy -- SeeQ OT Data Analytics Platform (2021-2024)
+
+**Hero metrics:** PM on SeeQ implementation; enabled engineers to self-serve OT data analysis outside SCADA; built condition-based monitoring use cases; demonstrated product management of an operational analytics tool for technical end users
+
+**Context:** SeeQ is an advanced analytics platform for operational data — it connects to process historians (OSIsoft PI, Honeywell, Aspen) and allows engineers and reliability teams to analyze time-series OT data, build condition-based monitoring calculations, and investigate process events without requiring SCADA/historian access or data engineering support. Erika was PM on TC Energy's SeeQ implementation.
+
+**What SeeQ does:**
+- Self-service analytics for engineers: drag-and-drop signal analysis, trend visualization, signal arithmetic, and statistical calculations on historian data — without writing SQL or scripting
+- Condition-based monitoring: engineers define threshold conditions (e.g., "compressor discharge temperature > 85°C for more than 30 minutes") and SeeQ generates alerts, event annotations, and performance summaries — extending monitoring beyond what's configured in SCADA
+- Investigation workflows: when an alarm or process event occurs, engineers can pull the relevant signals in SeeQ, overlay them on a timeline, calculate correlations, and document the analysis as a SeeQ workbook — a living record of the investigation
+- Integration with process historians: SeeQ connects directly to OSIsoft PI (the dominant historian in oil and gas) and other historians via standard connectors — no data movement required
+
+**What Erika delivered as PM:**
+- Stakeholder engagement with reliability engineers and process engineers to identify target use cases for SeeQ (which monitoring problems were hardest to solve in SCADA? Which analyses did engineers run manually in Excel that SeeQ could automate?)
+- Prioritized rollout by use case: compressor performance monitoring, pump efficiency trending, heat exchanger fouling detection, pipeline integrity monitoring
+- Adoption plan: SeeQ requires engineers to learn a new analysis paradigm — structured onboarding (SeeQ Academy modules + facilitated workshops on target use cases), champion identification in each engineering group, feedback loops to iterate on workbook templates
+- Integration design: historian connectivity (which PI servers, what tag access), SeeQ server architecture (on-prem vs. SeeQ Cloud), user access model
+- Business case: framed value as reduction in time-to-insight for reliability investigations (hours/days in Excel → minutes in SeeQ), and reduction in SCADA/historian admin load (engineers self-serve rather than requesting historian queries from IT)
+
+**Key capability demonstrated:** PM on an operational analytics platform — understands how engineers consume OT data, what self-service analytics means in an industrial context, and how to drive adoption of a technical tool with a technical but non-IT user base. Directly relevant to operational data platform PM roles (AVEVA PI Vision, AspenTech, Seeq, Uptake, SparkCognition, C3.ai) and industrial analytics software companies.
 
 ---
 
