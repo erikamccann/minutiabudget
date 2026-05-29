@@ -54,11 +54,11 @@ November 2019 -- August 2021
 **Senior Business Analyst / Program Lead | Enterprise Asset Management & Reliability Program**
 July 2014 -- November 2019
 
-- Contributed to one of the largest IT initiatives in Keyera's history — enterprise asset management and reliability program implementation across 26+ facilities
-- Designed and implemented the enterprise asset and location naming standard, establishing a consistent structure adopted across equipment tagging and multiple enterprise systems
-- Identified gaps in ownership across asset management systems and proposed the creation of a cross-functional Asset Management Systems team, defining its structure and operating model, which leadership implemented
-- Led requirements gathering and process design across Operations, Engineering, Maintenance, and IT stakeholders, aligning business processes with system capabilities
-- Mentored Business Analysts in stakeholder engagement and facilitation, building grassroots support across field sites for program adoption
+- Contributed to one of the largest IT initiatives in Keyera's history — an enterprise asset management and reliability transformation program spanning 26+ facilities, targeting improvements in asset management maturity, work management practices, reliability processes, asset data quality, and organizational consistency
+- Designed the enterprise asset and location naming standard governing equipment naming, functional locations, asset hierarchies, and identification structures — adopted across 26+ facilities and multiple enterprise systems, improving data consistency, reporting accuracy, asset traceability, and cross-system integration
+- Identified fragmented ownership across asset management capabilities and proposed a capability-based organizational model — bringing together Business Analysts, Functional Analysts, and Technical Analysts into a unified team focused on EAM as an enterprise business capability; leadership implemented the model, which grew from a 3-person function to approximately 10 people
+- Led requirements gathering and future-state process design across work management (work identification, planning, scheduling, execution, completion), reliability (defect management, failure identification, improvement initiatives), and asset lifecycle (creation, modification, retirement) — facilitating workshops with stakeholders across Operations, Engineering, Maintenance, Reliability, and IT
+- Mentored Business Analysts in stakeholder engagement and facilitation, building grassroots support across field sites that sustained program adoption
 
 **Team Lead, Maximo Support**
 2012 -- 2014

@@ -31,7 +31,7 @@
 
 ## Your Exit Narrative
 
-14+ years embedded in Canada's energy industry. Progressed from BA to team lead to portfolio owner to governance architect — each step expanding scope, not just repeating the last one.
+14+ years embedded in Canada's energy industry. Progressed from BA to team lead to portfolio owner to governance architect — each step expanding scope, not just repeating the last one. The through-line: at every stage, identified not just what to build but how the organization should structure itself to sustain it. Keyera: proposed a capability-based EAM team (3 → ~10 people). TC Energy: designed a portfolio governance framework. AltaGas: built a three-tier governance structure for a $432M capital program.
 
 At AltaGas: designed and chaired a three-tier governance structure for an EAM platform sitting inside a $432M capital program. Built the business case showing 37% of midstream OPEX is EAM-influenced, with $28-42M in annual cost reduction potential. Presented to multi-subsidiary executive leadership (AltaGas, WGL, Semco Energy, Petrogas). Drove three critical investment decisions through the SteerCo. Did this while the team shrank from 9 to 4 people and demand tripled.
 

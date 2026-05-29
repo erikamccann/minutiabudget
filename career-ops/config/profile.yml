@@ -57,7 +57,7 @@ narrative:
       hero_metric: "$14M portfolio; evaluated WirelessHART networks and Boston Dynamics Spot for industrial use"
     - name: "Keyera EAM Program"
       url: ""
-      hero_metric: "One of largest IT programs in company history; 26+ facilities; designed enterprise asset naming standard"
+      hero_metric: "One of largest IT programs in company history; 26+ facilities; designed enterprise asset naming standard (adopted across multiple systems); proposed capability-based org model that grew from 3 to ~10 people"
 
 compensation:
   target_range: "$150K-$190K CAD"

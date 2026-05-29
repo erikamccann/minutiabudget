@@ -202,18 +202,58 @@ TC Energy spun off its Liquids business as Southbow Energy in 2024. Erika served
 
 ## Keyera Corporation -- EAM & Reliability Program (July 2014 - November 2019)
 
-**Hero metrics:** 26+ facilities; one of the largest IT programs in Keyera's history; enterprise asset naming standard adopted across equipment tagging and multiple systems; proposed and got a new cross-functional team created
+**Hero metrics:** 26+ facilities; one of the largest IT programs in Keyera's history; enterprise naming standard adopted across multiple systems; proposed and got a new team created (3 → ~10 people); capability-based organizational model shift
 
-**Context:** Keyera's enterprise asset management and reliability program — a multi-year, company-wide implementation touching Operations, Engineering, Maintenance, IT, and field sites.
+**Context:** Keyera's enterprise asset management and reliability transformation program — multi-year, company-wide, touching Operations, Maintenance, Reliability, Engineering, Supply Chain, and IT. Objective extended beyond system implementation: improve asset management maturity, work management practices, reliability processes, asset data quality, and organizational consistency enterprise-wide.
 
-**What Erika delivered:**
-- Enterprise asset and location naming standard: designed and implemented the consistent structure adopted across equipment tagging and multiple enterprise systems
-- Proposed creation of Asset Management Systems team: identified accountability gap, defined team structure and operating model, leadership implemented the function
-- Requirements gathering and process design across 26+ facilities: Operations, Engineering, Maintenance, IT stakeholder alignment
-- Mentored Business Analysts on stakeholder engagement; built grassroots field support that sustained program adoption
-- Led Maximo support function (Team Lead, 2012-2014): issue resolution, enhancement prioritization, stakeholder engagement, support process design
+**What Erika was actually doing:**
+Not traditional requirements gathering — helping the organization answer larger questions:
+- How should asset management operate across a multi-facility enterprise?
+- How should asset information be governed and structured?
+- How should business and technology teams work together sustainably?
+- What organizational structure best supports long-term asset management capability?
 
-**Key capability demonstrated:** Seeing organizational gaps and proposing structural solutions — not just executing within existing structures but identifying when the structure itself is the problem.
+**Process Design Work (future-state, not just requirements):**
+
+*Work Management:*
+- Facilitated current-state assessments and future-state design for work management processes
+- Scope: work identification → work requests → planning → scheduling → execution → completion
+- Helped establish consistency in how maintenance activities were managed and supported through technology
+
+*Reliability Processes:*
+- Defined future-state processes for defect management, failure identification, reliability improvement initiatives
+- Defined data capture requirements and reporting needs for reliability objectives
+- Ensured reliability outcomes were reflected in future-state process and system designs
+
+*Asset Lifecycle Management:*
+- Defined processes supporting asset creation, modification, retirement, and information governance
+- Improved traceability and consistency across the organization's asset estate
+
+**Enterprise Asset Naming Standards:**
+Most significant and enduring technical accomplishment:
+- Designed standards governing equipment naming, functional locations, asset hierarchies, and identification structures
+- Adopted across ~26 facilities
+- Became foundational to multiple enterprise systems and business processes
+- Required extensive collaboration across Operations, Maintenance, Reliability, Engineering, and IT to build alignment and drive adoption
+- Outcomes: improved data consistency, reporting accuracy, asset traceability, cross-system integration, enterprise governance
+
+**Asset Management Systems Team — Organizational Design:**
+Most significant organizational accomplishment:
+- Observed that responsibility for asset management capabilities was fragmented: business process ownership, system support, technical expertise, and data governance operated independently
+- Recognized that asset management should be treated as an enterprise business capability, not a collection of individual applications
+- Proposed a capability-based organizational model bringing together BAs, Functional Analysts, and Technical Analysts into a unified team focused on EAM as a business capability
+- Initially proposed to manager → elevated to director level → formalized by leadership
+- Starting state: herself as the BA + 2 Technical Analysts (3 people)
+- Within ~1 year: grew to ~10 people supporting enterprise EAM capabilities
+- Organizational shift: from "who supports this application?" to "who owns and supports this business capability?" — improved alignment, ownership, governance, and long-term sustainability
+
+**Stakeholder Engagement breadth:**
+Worked across every level — operators, technicians, planners, maintenance managers, reliability engineers, technical specialists, managers, directors, program sponsors. Known as a trusted facilitator and translator between business and technology groups.
+
+**How this role reads today:**
+Keyera was the origin of the career themes that later became portfolio governance at TC Energy and enterprise operating model design at AltaGas. Same questions, larger stage. At Keyera: proposed a capability-based team. At TC Energy: governed a $9M-$15M delivery portfolio. At AltaGas: designed a three-tier governance structure for a $432M capital program.
+
+**Key capability demonstrated:** Seeing organizational gaps and proposing structural solutions — not just executing within existing structures but identifying when the structure itself is the problem. The Asset Management Systems team proposal is the earliest evidence of the governance architecture instinct that defines the career arc.
 
 ---
 
