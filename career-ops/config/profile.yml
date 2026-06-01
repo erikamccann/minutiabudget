@@ -63,8 +63,8 @@ target_roles:
     - "Reliability & asset lifecycle"
 
 narrative:
-  headline: "Enterprise delivery leader who builds the governance systems that turn $400M+ capital programs into measurable outcomes"
-  exit_story: "14+ years building enterprise delivery systems in Canada's energy industry — from BA to portfolio owner to governance architect. At AltaGas, designed and chaired a three-tier governance structure for a platform sitting inside a $432M capital program. At TC Energy, owned a $9M-$15M delivery portfolio across five business functions including Engineering, Operations, Supply Chain, Finance, HR, and CRM/marketing platform. Process and workflow design background spans 8+ enterprise business domains — has delivered BPMN-based process design across marketing, construction PM, finance, HR, supply chain, and operations contexts. Holds a BSc in Computer Science — built production software in C#/SQL and can engage technical teams directly."
+  headline: "Enterprise delivery leader who builds the governance frameworks and operating models that make multi-subsidiary enterprise programs accountable and measurable"
+  exit_story: "14+ years building enterprise delivery systems in Canada's energy industry — from BA to portfolio owner to governance architect. At AltaGas, designed and chaired a three-tier governance structure governing EAM delivery across four subsidiaries. At TC Energy, owned a $9M-$15M delivery portfolio across five business functions including Engineering, Operations, Supply Chain, Finance, HR, and CRM/marketing platform. Process and workflow design background spans 8+ enterprise business domains — has delivered BPMN-based process design across marketing, construction PM, finance, HR, supply chain, and operations contexts. Holds a BSc in Computer Science — built production software in C#/SQL and can engage technical teams directly."
   superpowers:
     - "Governance architecture from blank page to executive adoption (RASCI, committee design, decision rights)"
     - "Business case framing that connects IT investment to operational cost and capital outcomes"
@@ -83,7 +83,7 @@ narrative:
   proof_points:
     - name: "AltaGas EAM Governance Design"
       url: ""
-      hero_metric: "3-tier governance structure across 4 subsidiaries; supports $432M 2026 capital program; enables $28-42M annual cost reduction"
+      hero_metric: "3-tier governance structure across 4 subsidiaries; governance framework connecting EAM delivery capability to maintenance program efficiency; unblocked platform migration stalled since 2022"
     - name: "TC Energy Liquids Portfolio"
       url: ""
       hero_metric: "$9M-$15M annual portfolio across Engineering, Operations, Supply Chain, Projects, Reliability & Commercial; Application Stream Lead on Southbow spinoff (2,000+ apps rationalized; Azure/Dynamics over AWS/SAP recommendation accepted)"

@@ -22,10 +22,10 @@ April 2025 — Present
 - Designed the EAM Operating Model from blank page — defined role accountabilities across five functions, nine design tenets governing how technical decisions are made, and a service model clarifying exactly how demand flows from business request to delivered capability; adopted across four subsidiaries
 - Established a delivery framework in Azure DevOps defining a five-level work hierarchy (Epics → Features → User Stories → Test Cases → Defects) with traceability standards and outcome-based "done" definitions at each level — providing consistent delivery visibility from strategic initiative through tested deliverable
 - Designed and chaired a three-tier governance structure (Strategic Leadership Council, Program Leadership Council, Technical Advisory Council) with defined decision rights, RASCI accountabilities, and committee cadence — adopted across AltaGas, WGL, Semco Energy, and Petrogas
-- Built the business case for enterprise governance against $432M in 2026 capital spend, framing the investment model to enable $28–42M in annual cost reductions across labour and materials
+- Built and presented the business case for enterprise EAM governance to executive leadership, framing adoption gaps, technical debt, and delivery capacity constraints as enterprise risk across four subsidiaries
 - Led a cross-functional delivery team through a period where demand tripled while capacity dropped from 9 to 4 — maintained delivery quality through backlog prioritization, intake management, and executive stakeholder alignment
 - Presented platform adoption metrics to executive leadership — 506 active users, 82 average daily logins — and used utilization data to frame adoption gaps as investment risk requiring structural response
-- Developed the 2025–2027 EAM Capabilities Roadmap spanning eight enterprise capability domains, governing four delivery workstreams and a $432M capital program
+- Developed the 2025–2027 EAM Capabilities Roadmap spanning eight enterprise capability domains, governing four delivery workstreams across four subsidiaries
 
 ### TC Energy — Calgary, AB
 **Liquids Portfolio Product Manager | Customer Engagement & Product Strategy**

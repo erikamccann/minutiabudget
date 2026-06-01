@@ -16,7 +16,7 @@ Digital delivery and program leader with 14+ years embedded in Canada's energy i
 April 2025 -- Present
 
 - Designed and chaired a three-tier EAM governance structure — Strategic Leadership Council, Program Leadership Council, and Technical Advisory Council — adopted across AltaGas, WGL, Semco Energy, and Petrogas, defining decision rights, RASCI accountability, and committee cadence
-- Built the business case for enterprise governance against $432M in 2026 capital spend and 37% of midstream OPEX, positioning the framework to enable $28-42M in annual cost reductions across labour and materials
+- Built and presented the business case for enterprise EAM governance to executive leadership — connecting structured delivery capability to the optimization potential within AltaGas's maintenance programs, and framing platform adoption gaps and technical debt as enterprise risk across four subsidiaries
 - Developed the 2025-2027 EAM Capabilities Roadmap spanning eight enterprise capability domains — Work Management, Asset Lifecycle, Supply Chain, Inventory Management, Operations Management, Health Safety & Environment, Planning & Scheduling, and Reliability & Maintenance — structured around four delivery workstreams and governing the Maximo Application Suite 9 (MAS 9) implementation program
 - Designed and presented a decision-facilitation framework for executive leadership to navigate the MAS 9 migration — using a real-world home-buying analogy to make hosting model (Hybrid Cloud vs. SaaS), execution strategy (Upgrade vs. Blank Slate), and migration strategy (Phased Roll-Out vs. Single Go-Live) decisions accessible to non-technical stakeholders, driving SteerCo alignment on all three
 - Tracked and presented platform adoption metrics to executive leadership — 506 active users, 82 average daily logins — framing low adoption alongside capacity constraints and inconsistent design principles as drivers of enterprise risk
@@ -32,18 +32,23 @@ April 2025 -- Present
 **Liquids Portfolio Product Manager | Customer Engagement & Product Strategy**
 August 2021 -- September 2024
 
+- Served as the single PM accountable for the entire Liquids Business Unit — individual product managers owning specific capability lines (Work Management, Supply Chain, Engineering, Reliability, Commercial) operated within and reported into the BU-level strategic roadmap; scope expanded to the full company-wide technology roadmap as part of the Southbow spinoff
 - Owned portfolio planning and delivery across a $9M-$15M annual portfolio of initiatives supporting Engineering, Operations, Supply Chain, Projects, Reliability, and Commercial functions within the Liquids Business Unit
+- Built a behavioral analytics model on application support ticket data — analyzed ticket volume, origin location, and user demographics to identify adoption gaps invisible in aggregate metrics; discovered that areas with zero tickets were not high-performing but had access barriers and systemic distrust in IT; challenged the prevailing assumption that "no complaints = healthy adoption" and presented findings to IT leadership to change how field adoption was measured
+- Developed commercial schedule compliance performance metrics from the ground up, giving the Liquids BU its first structured visibility into contractual delivery performance
+- Conducted quantitative workload analytics across the PM function — mapped initiative volume, complexity, and stakeholder demand by product line to identify capacity imbalances and support team restructuring decisions
 - Partnered with Directors, General Managers, and Vice Presidents to evaluate, prioritize, and align proposed initiatives against strategic business objectives — balancing strategic alignment, regulatory requirements, operational risk, and resource constraints — developing multi-year capability roadmaps and investment plans
 - Drove product management maturity across the portfolio — establishing a discipline of defining business outcomes and problems before technology solutions, shifting leadership discussions from feature requests to value realization
 - Designed an investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight — giving leadership consistent visibility from intake through funded execution
 - Developed executive-level portfolio reporting and performance dashboards using Power BI, providing visibility into portfolio health, initiative progress, risks, dependencies, and business outcomes
 - Designed an integrated planning approach connecting demand intake, budgeting, and project execution data across Power Apps, SAP, and Power BI, improving visibility from initial business request through funded and delivered work
-- Coached Business Analysts across the portfolio on requirements management, stakeholder engagement, and workshop facilitation
 - Served as Application Stream Lead on the TC Energy / Southbow spinoff — led application blueprinting and rationalization of 2,000+ applications scoped for a 10,000-person organization down to fit a 600-person company; recommended migrating from the planned AWS and SAP architecture to Azure and Dynamics 365, based on organizational scale, Power Platform interoperability with productivity tools, and total cost optimization
 
 ### 222529 Alberta Inc. (Independent Consulting Practice)
 **Director, Business Analysis Consulting | Digital Transformation Programs**
 November 2019 -- August 2021
+
+*Clients: Teck Resources and other energy, mining, and industrial operations organizations*
 
 - Led intake and evaluation of digital transformation opportunities within maintenance organizations, identifying applications for emerging technologies including WirelessHART sensor networks and Boston Dynamics Spot robotic inspection
 - Developed business cases, value frameworks, and prioritization models supporting investment decisions across a $14M portfolio of proof-of-concept initiatives

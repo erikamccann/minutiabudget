@@ -32,8 +32,8 @@ August 2021 — September 2024
 **Lead, Business Solutions | Product Strategy**
 April 2025 — Present
 
-- Designed and chaired a three-tier governance structure — Strategic Leadership Council, Program Leadership Council, and Technical Advisory Council — adopted across four subsidiaries, defining decision rights, RASCI accountability, and committee cadence to govern a $432M capital program
-- Built the business case for enterprise governance connecting platform investment to $28–42M in potential annual cost reductions across labour and materials — framed and presented to executive leadership
+- Designed and chaired a three-tier governance structure — Strategic Leadership Council, Program Leadership Council, and Technical Advisory Council — adopted across four subsidiaries, defining decision rights, RASCI accountability, and committee cadence for AltaGas's EAM program
+- Built and presented the business case for enterprise EAM governance to executive leadership — framing platform adoption gaps and technical debt as enterprise risk, and connecting structured delivery capability to the optimization potential within AltaGas's maintenance programs
 - Designed the EAM Operating Model — defining role accountabilities, nine design tenets governing how technical decisions are made, and a service model clarifying how demand flows from business request through to delivery outcome
 - Developed the 2025–2027 EAM Capabilities Roadmap spanning eight enterprise capability domains, synthesizing inputs from four delivery workstreams and executive leadership into a coherent multi-year strategic direction
 - Established a delivery framework in Azure DevOps defining a five-level work hierarchy, traceability standards, and outcome-based done definitions — providing consistent visibility from strategic initiative through to tested deliverable
@@ -58,7 +58,7 @@ July 2014 — November 2019
 - Served as BA for GL Account validation in enterprise systems integrating with Qbyte as the financial source of truth — learned and applied enterprise accounting structures including cost centers, AFEs, major and minor accounts, debit and credit entries, and inventory holding account transfers at configuration depth
 - Led the CBS WBA Structure project for Qbyte — a financial structure design project governing how work breakdown structures, cost objects, and account hierarchies were defined and maintained across the enterprise
 - Delivered process design across finance and accounting workflows — including GL validation processes, financial data quality standards, and cross-system integration points between operational platforms and financial systems
-- Contributed to one of the largest IT initiatives in Keyera’s history — an enterprise platform transformation spanning 26+ facilities across Operations, Maintenance, Reliability, Engineering, Supply Chain, and Finance
+- Contributed to one of the largest IT initiatives in Keyera's history — an enterprise platform transformation spanning 26+ facilities across Operations, Maintenance, Reliability, Engineering, Supply Chain, and Finance
 - Designed the enterprise asset and location naming standard governing identification structures adopted across 26+ facilities and multiple enterprise systems — establishing the data foundation for cross-functional reporting and financial traceability
 - Identified fragmented ownership across enterprise capabilities and proposed a capability-based organizational model — grew from a 3-person function to approximately 10 people
 - Led future-state process design across work management, reliability, and asset lifecycle — facilitating cross-functional workshops with stakeholders across Operations, Engineering, Maintenance, Finance, and IT; delivered process clarity before any system configuration decision was made
