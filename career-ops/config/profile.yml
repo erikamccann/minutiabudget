@@ -18,10 +18,10 @@ target_roles:
     - "IT Manager"
     - "Manager, Business Solutions"
   archetypes:
-    - name: "IT / Digital Manager (Energy Industry)"
+    - name: "IT / Digital Manager (B2B Enterprise Software)"
       level: "Manager/Senior Manager"
       fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
-    - name: "Product Manager (Energy / Industrial B2B)"
+    - name: "Product Manager (Enterprise Platform / Operational Software)"
       level: "Manager/Senior"
       fit: "primary"
     - name: "Program / Portfolio Manager"
@@ -30,10 +30,41 @@ target_roles:
     - name: "Digital Transformation Manager"
       level: "Manager/Senior Manager"
       fit: "adjacent"
+    - name: "Marketing / CRM Technology Manager"
+      level: "Manager/Senior Manager"
+      fit: "adjacent"
+
+  industry_targeting:
+    # Industry is NOT a hard constraint — function and sector type are
+    strong_fit:
+      - "Energy / Oil & Gas / Midstream / Utilities"
+      - "Industrial operations software (EAM, ERP, supply chain, procurement, field ops)"
+      - "Construction technology / field delivery software"
+      - "Enterprise B2B SaaS with operational complexity (any vertical)"
+      - "Infrastructure / asset-intensive industries"
+    acceptable:
+      - "Legal tech, healthcare tech, financial services — where role is IT delivery or enterprise platform PM"
+      - "Any B2B enterprise software where work is: operating model design, delivery governance, platform PM, or process design"
+    avoid:
+      - "Pure B2C consumer products (gaming, marketplace, social, consumer fintech)"
+      - "Developer tools / security tooling where domain expertise is a hard requirement"
+      - "Roles where the function is: GTM strategy, revenue ops, creative director, management consulting generalist"
+      - "Startup stage (<50 people) unless exceptional fit"
+
+  cross_functional_domains:
+    # Domains Erika has delivered process/workflow design across — transferable evidence
+    - "Marketing & CRM (Liquids BU full CRM platform assessment, oil & gas marketing department)"
+    - "Engineering & Technical"
+    - "Construction project management"
+    - "Finance & accounting workflows"
+    - "HR processes"
+    - "Supply chain & procurement (procure-to-pay, blanket POs, SOAs, 3-way match)"
+    - "Operations & maintenance (work management lifecycle, scheduling, execution)"
+    - "Reliability & asset lifecycle"
 
 narrative:
-  headline: "Energy industry delivery leader who builds the governance systems that turn $400M+ capital programs into measurable outcomes"
-  exit_story: "14+ years embedded in Canada's energy industry — from BA to portfolio owner to governance architect. At AltaGas, designed and chaired a three-tier governance structure for a platform sitting inside a $432M capital program, where 37% of midstream OPEX is EAM-influenced. At TC Energy, owned a $9M-$15M delivery portfolio across five business functions. Holds a BSc in Computer Science — can engage technical teams directly and translate in both directions."
+  headline: "Enterprise delivery leader who builds the governance systems that turn $400M+ capital programs into measurable outcomes"
+  exit_story: "14+ years building enterprise delivery systems in Canada's energy industry — from BA to portfolio owner to governance architect. At AltaGas, designed and chaired a three-tier governance structure for a platform sitting inside a $432M capital program. At TC Energy, owned a $9M-$15M delivery portfolio across five business functions including Engineering, Operations, Supply Chain, Finance, HR, and CRM/marketing platform. Process and workflow design background spans 8+ enterprise business domains — has delivered BPMN-based process design across marketing, construction PM, finance, HR, supply chain, and operations contexts. Holds a BSc in Computer Science — built production software in C#/SQL and can engage technical teams directly."
   superpowers:
     - "Governance architecture from blank page to executive adoption (RASCI, committee design, decision rights)"
     - "Business case framing that connects IT investment to operational cost and capital outcomes"
@@ -42,6 +73,13 @@ narrative:
     - "Driving alignment on high-stakes decisions at VP/SteerCo level"
     - "Process-first design — defining business outcomes, process flows, and decision rights before systems are configured"
     - "Cross-functional translation across operations, engineering, IT, and business stakeholders across 8+ enterprise capability domains"
+    - "Hands-on technical foundation: built a production GIS Job Tracking application in C# with custom SQL database at Husky; delivered complex Maximo SQL queries with multi-table joins for operational reporting; designed and built Power Apps + Power Automate workflows and the underlying Power Platform data backend"
+    - "Behavioral and funnel analytics — identified adoption barriers by analyzing multi-channel demand (phone/chat/web), discovered drop-off wasn't demand but navigation friction and terminology (users didn't know what an 'Active Directory group' was); tracked DAU/MAU-equivalent metrics (506 active users, 82 avg daily logins) against license costs to surface utilization gaps as investment risk; same analytical reasoning as consumer funnel analysis, different domain labels"
+    - "Enterprise IAM/security domain knowledge — business analyst for SSO implementation in Maximo; functional BA for API integrations via Maximo Integration Framework (MIF); currently leading security group rationalization at AltaGas using complex SQL to identify overlapping roles across groups; understands role-based access control design at enterprise scale"
+    - "Internal management consulting at scale — TC Energy PM role was de facto account management and consulting: ran demand intake, negotiated competing business unit priorities, sold business cases at VP/GM level, and delivered strategic technology recommendations that were adopted (e.g. Azure/Dynamics over AWS/SAP for Southbow)"
+    - "Financial modeling for investment decisions — at Teck Resources, all PoC evaluations required formal ROI, NPV, and cash flow analysis; worked with a Financial Manager to validate that projected value could be realized within departmental budget constraints for the following year; not just business case narratives but quantitative investment models"
+    - "Restaurant / hospitality industry end-user — worked in fast food and as a server from age 16-24; direct hands-on user of POS systems, ordering workflows, and restaurant operations; understands the actual user experience of the software restaurant tech companies build, not from analysis but from operating it on a shift"
+    - "Enterprise GL/ERP accounting depth — at Keyera, was BA for GL Account validation in Maximo integrating with Qbyte as source of truth; learned enterprise accounting structures including cost centers, AFEs, major/minor accounts, debit/credit entries, and inventory holding account transfers; BA on the CBS WBA Structure project for Qbyte; at TC Energy, extensively understood SAP accounting structure, inventoried all SAP integrations (banks, suppliers, financial counterparties) as part of ERP-to-Dynamics migration planning, and contributed to a full ERP evaluation assessment — accounting is not a gap, it's a confirmed delivery domain"
   proof_points:
     - name: "AltaGas EAM Governance Design"
       url: ""
@@ -58,12 +96,15 @@ narrative:
     - name: "Keyera EAM Program"
       url: ""
       hero_metric: "One of largest IT programs in company history; 26+ facilities; designed enterprise asset naming standard (adopted across multiple systems); proposed capability-based org model that grew from 3 to ~10 people"
+    - name: "TC Energy Liquids CRM/Marketing Platform Assessment"
+      url: ""
+      hero_metric: "Full CRM and marketing platform assessment for the Liquids Business Unit (now Southbow); evaluated platforms against business requirements across marketing and customer engagement functions"
 
 compensation:
   target_range: "$150K-$190K CAD"
   currency: "CAD"
   minimum: "$130K CAD"
-  location_flexibility: "Calgary preferred; open to hybrid and remote-first roles"
+  location_flexibility: "Calgary only OR fully remote (Canada). Cannot relocate. Non-Calgary in-person or hybrid roles are a hard no."
 
 location:
   country: "Canada"
