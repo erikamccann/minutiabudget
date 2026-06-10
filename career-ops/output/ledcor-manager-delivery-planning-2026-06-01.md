@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Capital program delivery leader with 14+ years building the governance frameworks, planning infrastructure, and analytics systems that make large-scale programs visible, accountable, and measurable. At AltaGas, designed a three-tier governance structure — Strategic Leadership Council, Program Leadership Council, and Technical Advisory Council — across four subsidiaries, building the governance framework for structured delivery of AltaGas's maintenance programs. At TC Energy, owned a $9M–$15M annual delivery portfolio across five business functions: built the quantitative workload analytics that informed PM team restructuring, developed commercial schedule compliance metrics from scratch giving the business unit its first structured visibility into contractual delivery performance, and produced executive-level portfolio dashboards in Power BI. Earlier at Keyera, contributed to one of the largest IT programs in company history — spanning 26+ facilities — and proposed the capability-based organizational model that grew the delivery function from 3 to approximately 10 people. Holds a BSc in Computer Science and fluency across operations, engineering, IT, and business stakeholders in capital-intensive industrial environments.
+Capital program delivery leader with 14+ years building the governance frameworks, program controls infrastructure, and delivery analytics systems that make large-scale programs visible, accountable, and measurable. At AltaGas, designed a three-tier governance structure — Strategic Leadership Council, Program Leadership Council, and Technical Advisory Council — across four subsidiaries, building the governance framework for structured delivery of AltaGas's maintenance programs. At TC Energy, owned a $9M–$15M annual delivery portfolio across five business functions: built the quantitative workload and resource planning analytics that informed PM team restructuring, developed schedule compliance and variance analysis metrics from scratch giving the business unit its first structured visibility into contractual delivery performance, and produced executive-level portfolio dashboards in Power BI. Earlier at Keyera, contributed to one of the largest IT programs in company history — spanning 26+ facilities — and proposed the capability-based organizational model that grew the delivery function from 3 to approximately 10 people. Holds a BSc in Computer Science and fluency across operations, engineering, IT, and business stakeholders in capital-intensive industrial environments.
 
 ---
 
@@ -34,7 +34,7 @@ April 2025 — Present
 August 2021 — September 2024
 
 - Owned portfolio planning and delivery across a $9M–$15M annual initiative portfolio supporting Engineering, Operations, Supply Chain, Projects, Reliability, and Commercial functions within the Liquids Business Unit — serving as the single accountable PM for the BU-level strategic roadmap
-- Developed commercial schedule compliance performance metrics from the ground up — gave the Liquids Business Unit its first structured visibility into contractual delivery performance, establishing a measurement baseline where none previously existed
+- Developed schedule compliance and delivery variance analysis from the ground up — gave the Liquids Business Unit its first structured visibility into contractual delivery performance, establishing program controls and measurement baselines where none previously existed
 - Conducted quantitative workload analytics across the PM function — mapped initiative volume, complexity, and stakeholder demand by product line to identify capacity imbalances and build the analytical case for PM team restructuring decisions
 - Designed an investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight — giving leadership consistent, structured visibility from initial business request through funded execution
 - Developed executive-level portfolio performance dashboards using Power BI — reporting on portfolio health, initiative progress, risks, dependencies, and business outcomes across all active programs
@@ -88,15 +88,15 @@ July 2014 — November 2019
 ## Skills
 
 - Delivery Governance Framework Design (Three-Tier, RASCI, Decision Rights)
-- Capital Program Analytics & Performance Reporting
+- Capital Program Analytics, Delivery Performance & Reporting Cadences
 - Portfolio Planning & Delivery ($9M–$15M+ annual portfolios)
-- Schedule & Cost Performance Metrics (built from scratch)
+- Schedule Compliance, Variance Analysis & Program Controls (built from scratch)
 - Azure DevOps (5-Level Work Hierarchy, Traceability, Done Definitions)
 - Power BI Portfolio Dashboards & Executive Reporting
 - Investment Governance (Intake through Delivery Oversight)
 - Cross-Functional Delivery Coordination
 - Roadmap Development (Multi-Workstream, Multi-Year)
-- Quantitative Workload & Capacity Analytics
+- Quantitative Workload, Capacity & Resource Planning Analytics
 - Executive Stakeholder Alignment (VP / GM / SteerCo)
 - Energy & Capital Infrastructure (Midstream, Upstream, Utilities)
 - SAP | Maximo (MAS) | Power Apps | Microsoft Fabric

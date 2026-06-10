@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Enterprise program manager who designs the operating systems that product and engineering organizations work inside — intake models, prioritization frameworks, SLAs, cross-functional delivery accountability, and launch readiness criteria. At AltaGas, designed the EAM Operating Model from blank page: role accountabilities, design tenets, and the service model defining how demand flows from business request to delivered capability. At TC Energy, built the investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight for a $9M–$15M annual portfolio across five business functions. Deep IAM and integration background from enterprise Maximo environments: business analyst for SSO implementation, functional BA for API integrations via the Maximo Integration Framework (MIF), and currently leading security group rationalization using complex SQL to identify and resolve overlapping roles across enterprise access groups. Holds a BSc in Computer Science — engages engineering teams directly and translates across technical and business contexts.
+Enterprise program manager who designs the operating systems that product and engineering organizations run on — NPI operations frameworks, intake models, prioritization criteria, SLAs, escalation paths, and launch readiness criteria enabling cross-functional execution at scale. At AltaGas, designed the EAM Operating Model from blank page: role accountabilities, design tenets, and the service model defining how demand flows from business request to delivered capability. At TC Energy, built the investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight for a $9M–$15M annual portfolio across five business functions. Deep IAM and integration background from enterprise Maximo environments: business analyst for SSO implementation, functional BA for API integrations via the Maximo Integration Framework (MIF), and currently leading security group rationalization using complex SQL to identify and resolve overlapping roles across enterprise access groups. Holds a BSc in Computer Science — engages engineering teams directly and translates across technical and business contexts.
 
 ---
 
@@ -20,7 +20,7 @@ Enterprise program manager who designs the operating systems that product and en
 April 2025 — Present
 
 - Designed the EAM Operating Model from blank page — defined role accountabilities (Business Analyst, Functional Analyst, Data Analyst, Technical Lead, Business Solutions Lead), nine design tenets governing how technical decisions are made, and a service model clarifying how demand flows from business request to delivery; adopted across a four-subsidiary program
-- Established a delivery framework in Azure DevOps defining a five-level work hierarchy (Epics → Features → User Stories → Test Cases → Defects), traceability standards, and outcome-based "done" definitions at each level — providing consistent launch readiness criteria from strategic initiative through to tested deliverable
+- Operationalized a delivery framework in Azure DevOps defining a five-level work hierarchy (Epics → Features → User Stories → Test Cases → Defects), traceability standards, and outcome-based "ecosystem ready" launch criteria — providing consistent launch readiness signal from strategic initiative through to tested deliverable
 - Leading enterprise security group rationalization — using complex SQL queries to identify overlapping role assignments across groups, mapping access patterns to job functions, and redesigning security architecture to align entitlements with actual business roles
 - Served as business analyst for SSO implementation and API integrations via the Maximo Integration Framework (MIF) — defining integration requirements, data mappings, and functional specifications bridging Maximo and enterprise systems
 - Drove three binary platform decisions — hosting model, execution strategy, and migration strategy — through executive SteerCo using a structured decision facilitation framework; unblocked a platform migration that had stalled since 2022
@@ -33,7 +33,7 @@ August 2021 — September 2024
 
 - Designed and operated an investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight — defining intake SLAs, prioritization criteria, escalation paths, and reporting cadences that gave leadership consistent visibility from initial request through funded execution
 - Served as the single PM accountable for the entire Liquids Business Unit — individual product managers owning capability lines (Work Management, Supply Chain, Engineering, Reliability, Commercial) operated within and reported into the BU-level strategic roadmap; scope expanded to the full company-wide roadmap during the Southbow spinoff
-- Conducted quantitative workload analytics across the PM function — mapped initiative volume, complexity, and stakeholder demand by product line to identify capacity imbalances and support team restructuring; defined "what does ecosystem ready mean" equivalents for each capability area before approving launch
+- Conducted quantitative workload analytics across the PM function — mapped initiative volume, complexity, and stakeholder demand by product line to identify capacity imbalances and drive team restructuring; defined "ecosystem ready" criteria for each capability area before approving launches to ensure cross-functional readiness
 - Built a behavioral analytics model on application support ticket data — identified that areas with zero tickets had access barriers and systemic distrust, not healthy adoption; presented findings that changed how IT leadership measured field adoption across the organization
 - Partnered with Directors, General Managers, and Vice Presidents across five business functions to evaluate and prioritize proposed initiatives — negotiating competing priorities, building business cases, and aligning investment decisions against strategic objectives
 - Designed an integrated planning approach connecting demand intake, budgeting, and project execution data across Power Apps, SAP, and Power BI — improving visibility from initial business request through funded and delivered work
@@ -82,12 +82,12 @@ July 2014 — November 2019
 
 ## Skills
 
-- Operating Model Design (Intake, Prioritization, SLAs, Escalation Paths)
+- NPI Operations & Operating Model Design (Intake, SLAs, Escalation Paths, Ecosystem Readiness)
 - Cross-Functional Program Management & Delivery Governance
 - Enterprise IAM / Security Group Design & Rationalization (SQL)
 - API Integration (Maximo Integration Framework / MIF)
 - SSO Implementation (Business Analyst)
-- Launch Readiness & "Done" Criteria Definition
+- Launch Readiness, "Ecosystem Ready" Criteria & Cross-Functional Delivery Coordination
 - Portfolio & Program Management ($9M–$15M+)
 - Demand Management & Capacity Planning
 - Azure DevOps | Power BI | Power Apps | SAP | Maximo (MAS)

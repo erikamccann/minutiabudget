@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Enterprise delivery leader with hands-on depth in GL/ERP accounting structures — not adjacent to finance, but inside it at configuration depth. At Keyera, served as BA for GL Account validation integrating Maximo with Qbyte as source of truth, learning enterprise accounting structures including cost centers, AFEs, major/minor accounts, debit/credit entries, and inventory holding account transfers; also led the CBS WBA Structure project for Qbyte, a financial structure design initiative. At TC Energy, extensively mapped SAP accounting structure, inventoried all SAP integrations to banks, suppliers, and financial counterparties, and contributed to a full ERP evaluation and SAP-to-Microsoft Dynamics migration plan. Owns the full delivery governance lifecycle at scale: at TC Energy, built and ran a $9M–$15M annual investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight — the same function this role requires across Finance, Accounting, and FP&A. Financial modeling is confirmed practice: every PoC investment at Teck Resources required formal ROI, NPV, and cash flow analysis validated with a Financial Manager. Holds a BSc in Computer Science and engages technical teams directly.
+Enterprise delivery leader with hands-on depth in GL/ERP accounting structures — not adjacent to finance, but inside it at configuration depth. At Keyera, served as BA for GL Account validation integrating Maximo with Qbyte as source of truth, learning enterprise accounting structures including cost centers, AFEs, major/minor accounts, debit/credit entries, and inventory holding account transfers, and month-end close and financial reporting workflows; also led the CBS WBA Structure project for Qbyte, a financial structure design initiative. At TC Energy, extensively mapped SAP accounting structure, inventoried all SAP integrations to banks, suppliers, and financial counterparties, and contributed to a full ERP evaluation and SAP-to-Microsoft Dynamics migration plan. Owns the full delivery governance lifecycle at scale: at TC Energy, built and ran a $9M–$15M annual investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight — the same function this role requires across Finance, Accounting, and FP&A. Financial modeling is confirmed practice: every PoC investment at Teck Resources required formal ROI, NPV, and cash flow analysis validated with a Financial Manager. Holds a BSc in Computer Science and engages technical teams directly.
 
 ---
 
@@ -25,7 +25,7 @@ August 2021 — September 2024
 - Extensively understood SAP accounting structure across the Liquids Business Unit — mapped GL relationships, financial data flows, and integration points between SAP and operational systems as part of ERP migration planning
 - Developed executive-level portfolio performance dashboards in Power BI, providing leadership with consistent visibility into portfolio health, initiative progress, risks, and dependencies
 - Conducted quantitative workload analytics across the PM function — mapped initiative volume, complexity, and stakeholder demand by product line to identify capacity imbalances and support team restructuring decisions
-- Drove product management maturity across the portfolio — establishing a discipline of defining business outcomes and problems before technology solutions, shifting leadership discussions from feature requests to value realization
+- Drove product management maturity across the portfolio — establishing a discipline of defining business outcomes and problems before technology solutions, surfacing operational debt and scalable workflow gaps as investment risk, and shifting leadership discussions from feature requests to value realization
 - Built a behavioral analytics model on application support ticket data to identify adoption gaps invisible in aggregate metrics — challenged the assumption that "no complaints = healthy adoption" and presented findings to IT leadership to change how field adoption was measured
 
 ### AltaGas Ltd. — Calgary, AB
@@ -55,7 +55,7 @@ November 2019 — August 2021
 **Senior Business Analyst / Program Lead | Enterprise Asset Management & Reliability Program**
 July 2014 — November 2019
 
-- Served as BA for GL Account validation in enterprise systems integrating with Qbyte as the financial source of truth — learned and applied enterprise accounting structures including cost centers, AFEs, major and minor accounts, debit and credit entries, and inventory holding account transfers at configuration depth
+- Served as BA for GL Account validation, AP integration, and month-end financial close processes in enterprise systems integrating with Qbyte as the financial source of truth — learned and applied enterprise accounting structures including cost centers, AFEs, major and minor accounts, debit and credit entries, and inventory holding account transfers at configuration depth
 - Led the CBS WBA Structure project for Qbyte — a financial structure design project governing how work breakdown structures, cost objects, and account hierarchies were defined and maintained across the enterprise
 - Delivered process design across finance and accounting workflows — including GL validation processes, financial data quality standards, and cross-system integration points between operational platforms and financial systems
 - Contributed to one of the largest IT initiatives in Keyera's history — an enterprise platform transformation spanning 26+ facilities across Operations, Maintenance, Reliability, Engineering, Supply Chain, and Finance
@@ -89,14 +89,14 @@ July 2014 — November 2019
 ## Skills
 
 - Finance Systems Delivery (ERP, GL, AP, Procurement, Financial Close)
-- GL / Accounting Structure (Cost Centers, AFEs, Debit/Credit, Inventory Accounts)
+- GL / Accounting Structure (Cost Centers, AFEs, Month-End Close, Internal Controls)
 - ERP Evaluation & Migration Planning (SAP, Microsoft Dynamics 365)
 - Investment Governance (Intake, Business Case, Funding, Oversight)
 - Technology Roadmap Ownership & Delivery Governance
 - Financial Modeling (ROI / NPV / Cash Flow Analysis)
 - Executive Stakeholder Alignment (VP / GM / Director / SteerCo)
 - Portfolio & Program Management ($9M–$15M+)
-- Process-First Design & Financial Workflow Design
+- Scalable Workflow Design, Embedded Controls & Process-First Delivery
 - Operating Model Design & Demand Management
 - Power BI (Portfolio Dashboards & Performance Analytics)
 - Azure DevOps (Delivery Frameworks & Work Hierarchy)

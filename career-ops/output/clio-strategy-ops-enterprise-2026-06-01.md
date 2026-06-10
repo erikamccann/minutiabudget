@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Strategy and operations leader with 14+ years building the operating systems that enterprise programs run on — demand intake frameworks, investment governance, portfolio performance infrastructure, and cross-functional planning processes adopted at the VP and executive level. At TC Energy, served as the de facto S&O function for the entire Liquids Business Unit technology portfolio ($9M–$15M annually): designed the investment governance framework from intake through funded execution, built Power BI dashboards giving leadership real-time portfolio visibility, and partnered with Directors, GMs, and VPs to align competing business unit priorities against budget and strategic objectives. At AltaGas, designed a three-tier governance structure across four subsidiaries from a blank page and built the business case for enterprise EAM governance investment, framing platform adoption gaps and technical debt as enterprise risk. Financial modeling is confirmed practice: every PoC investment decision at Teck Resources required formal ROI, NPV, and cash flow analysis validated with a Financial Manager. Holds a BSc in Computer Science — engages technical teams directly and translates between operational reality and strategic investment in both directions.
+Strategy and operations leader with 14+ years building the operating systems that enterprise programs run on — demand intake frameworks, investment governance, portfolio performance infrastructure, and cross-functional planning processes adopted at the VP and executive level. At TC Energy, served as the de facto S&O function for the entire Liquids Business Unit technology portfolio ($9M–$15M annually): designed the investment governance framework from intake through funded execution, built Power BI dashboards and established MBR/QBR operating cadences giving leadership consistent portfolio visibility, and partnered with Directors, GMs, and VPs to align competing business unit priorities against strategic objectives. At AltaGas, designed a three-tier governance structure across four subsidiaries from a blank page and built the business case for enterprise EAM governance investment, framing platform adoption gaps and technical debt as enterprise risk. Financial modeling is confirmed practice: every PoC investment decision at Teck Resources required formal ROI, NPV, and cash flow analysis validated with a Financial Manager. Holds a BSc in Computer Science — engages technical teams directly and translates between operational reality and strategic investment in both directions.
 
 ---
 
@@ -22,10 +22,10 @@ August 2021 — September 2024
 - Served as the single accountable owner for the Liquids Business Unit technology portfolio — individual product managers owning specific capability lines (Work Management, Supply Chain, Engineering, Reliability, Commercial) operated within and reported into the BU-level strategic roadmap; scope expanded to the full company-wide technology roadmap during the Southbow spinoff
 - Designed an investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight — giving leadership consistent visibility from initial business request through funded and executed work; this framework was the operating model for the entire Liquids BU technology segment
 - Owned portfolio planning and investment alignment across a $9M–$15M annual portfolio — partnered with Directors, General Managers, and Vice Presidents to evaluate, prioritize, and align proposed initiatives against strategic objectives, balancing strategic alignment, regulatory requirements, operational risk, and resource constraints
-- Developed executive-level portfolio performance dashboards using Power BI, providing visibility into portfolio health, initiative progress, risks, dependencies, and business outcomes — replacing ad-hoc status reporting with a consistent, data-driven performance view
+- Developed executive-level portfolio performance dashboards using Power BI and established a structured MBR/QBR operating cadence — replacing ad-hoc status reporting with consistent business review cycles tracking portfolio health, initiative progress, performance gaps, risks, and dependencies
 - Built an integrated planning approach connecting demand intake, budgeting, and project execution data across Power Apps, SAP, and Power BI — improving visibility from initial business request through funded and delivered work
 - Conducted quantitative workload analytics across the PM function — mapped initiative volume, complexity, and stakeholder demand by product line to identify capacity imbalances and support team restructuring decisions
-- Built a behavioral analytics model on application support ticket data to identify adoption gaps invisible in aggregate metrics — challenged the prevailing assumption that "no complaints = healthy adoption" and presented findings to IT leadership to change how field adoption was measured
+- Built a behavioral analytics model on application support ticket data — identified that zero-ticket areas had access barriers and systemic distrust rather than healthy adoption; presented findings that changed how IT leadership measured adoption and framed utilization data as an enterprise performance management metric
 - Designed the commercial schedule compliance performance metrics from the ground up, giving the Liquids BU its first structured visibility into contractual delivery performance
 - Drove product management maturity across the portfolio — establishing a discipline of defining business outcomes and operational problems before technology solutions, shifting leadership discussions from feature requests to value realization
 - Served as Application Stream Lead on the TC Energy / Southbow spinoff — rationalized 2,000+ applications for a 10,000-person organization down to fit a 600-person company; recommended migrating from the planned AWS and SAP architecture to Azure and Dynamics 365 based on organizational scale, interoperability, and total cost optimization; recommendation was adopted as the platform direction
@@ -88,15 +88,15 @@ July 2014 — November 2019
 
 ## Skills
 
-- Operating Model Design & Demand Management
+- Enterprise Performance Management & Operating Cadence Design
 - Investment Governance (Intake, Business Case, Funding, Oversight)
 - Cross-Functional Program Delivery & Strategic Planning
 - Financial Modeling (ROI / NPV / Cash Flow Analysis)
 - Executive Stakeholder Alignment (VP / GM / Director / SteerCo)
 - Portfolio & Program Management ($9M–$15M+)
-- Business Performance Analysis & Reporting
+- MBR/QBR Business Review Infrastructure & Performance Gap Analysis
 - Power BI (Portfolio Dashboards & Performance Analytics)
 - Azure DevOps (Delivery Frameworks & Work Hierarchy)
-- Process-First Design & Decision Rights Definition
+- Cross-Functional Strategic Alignment & Decision Rights Definition
 - Power Apps | SAP | Microsoft Fabric
 - Cross-Functional Team Leadership (BA, Dev, Analyst, Support)

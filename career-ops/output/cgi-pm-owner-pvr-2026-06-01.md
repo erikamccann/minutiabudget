@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Energy industry product manager with 14+ years on the customer and implementation side of enterprise software — now positioned to own the roadmap for a product serving the industry she's spent her career in. At AltaGas, developed the 2025-2027 EAM Capabilities Roadmap spanning eight enterprise domains and drove SteerCo alignment on three binary platform migration decisions. At TC Energy, served as the single PM accountable for the entire Liquids BU portfolio ($9M–$15M annually), synthesizing roadmap inputs from five capability PMs into a coherent strategic direction. Deep familiarity with what energy operators actually need from their software — not from analysis, but from having sat in their seats. Holds a BSc in Computer Science; can engage development teams directly and translate between technical implementation and business value in both directions.
+Energy industry product manager with 14+ years on the customer and implementation side of enterprise software — now positioned to own the roadmap for a product serving the industry she's spent her career in. At AltaGas, developed the 2025-2027 EAM Capabilities Roadmap spanning eight enterprise domains and drove SteerCo alignment on three binary platform migration decisions. At TC Energy, served as the single PM accountable for the entire Liquids BU portfolio ($9M–$15M annually), synthesizing roadmap inputs from five capability PMs into a coherent strategic direction. Deep familiarity with what upstream oil and gas operators need from their software — production management, field data capture, work management, and reliability workflows — not from analysis but from having delivered systems that field operators use daily. Experienced in agile product ownership, sprint-level backlog management, and cross-functional delivery in Scrum environments. Holds a BSc in Computer Science; engages development teams directly and translates between technical implementation and business value in both directions.
 
 ---
 
@@ -25,7 +25,7 @@ April 2025 — Present
 - Tracked and presented platform adoption metrics — 506 active users, 82 average daily logins — to executive leadership as evidence for governance and investment decisions, reframing utilization gaps as enterprise risk
 - Designed the EAM Operating Model — defining role accountabilities, nine design tenets governing technical decisions, and a service model for how demand flows from business request to delivery outcome
 - Documented and presented a technical debt assessment to leadership, framing remediable workflow design failures and overridden OOTB functionality as prerequisites for the next platform generation
-- Led a cross-functional delivery team (Business Analysts, Systems Analysts, Developers) through a period where demand tripled while team capacity dropped from 9 to 4, maintaining delivery quality through structured backlog management and stakeholder alignment
+- Led a cross-functional Scrum delivery team (Business Analysts, Systems Analysts, Developers) through a period of peak demand — maintained delivery quality through sprint-level backlog management, user story refinement, acceptance criteria definition, and structured stakeholder alignment
 
 ### TC Energy — Calgary, AB
 **Liquids Portfolio Product Manager | Customer Engagement & Product Strategy**
@@ -83,15 +83,15 @@ July 2014 — November 2019
 ## Skills
 
 - Product Roadmap Ownership & Strategy
-- Energy Industry Domain Expertise (Midstream, Upstream, Utilities, Mining)
+- Upstream Oil & Gas Domain Expertise (Production Management, Field Data Capture, EAM)
 - Enterprise Platform Product Management
 - Stakeholder Alignment (VP / GM / Executive / Cross-Functional)
 - Business Case Development & Investment Governance
 - Portfolio & Program Management ($9M–$15M+)
-- Process-First Design & Requirements Definition
+- Agile / Scrum Product Ownership (Backlog, Sprint Planning, User Stories, Acceptance Criteria)
 - Maximo (MAS) | SAP | Azure DevOps | Power BI
 - Power Apps | Power Automate | Microsoft Fabric
 - C# & SQL (Developer Background)
 - Cross-Functional Team Leadership (Dev, BA, Support)
 - Platform Adoption Analytics & Utilization Measurement
-- Change Enablement & Platform Adoption
+- Software Development Lifecycle (SDLC) & Change Enablement

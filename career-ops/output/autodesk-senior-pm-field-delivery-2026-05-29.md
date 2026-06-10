@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Product and delivery leader with 14+ years designing and managing workflow-driven enterprise platforms for industrial operations — specializing in field operations workflow design, work management lifecycle, labor and materials tracking, inspection data capture, and enterprise platform migration. The operational patterns that define construction field delivery — how work gets created, approved, executed, and closed; how time and materials are captured; how field data flows from job site to ERP — are the same patterns built from blank page across energy maintenance programs covering 26+ facilities. Led complex enterprise platform migrations at scale, including facilitating executive alignment on a multi-decision Maximo platform migration and rationalizing 2,000+ applications through a major corporate spinoff. Product Manager on a SaaS operational analytics platform implementation at TC Energy. Holds a BSc in Computer Science, enabling direct engagement with engineering and platform teams across the full product lifecycle.
+Product and delivery leader with 14+ years designing and managing workflow-driven enterprise platforms for industrial operations — specializing in field operations workflow design, work management lifecycle, labor workflows and T&M tracking, field data capture and daily reporting, and enterprise platform migration in construction technology and industrial operations contexts. The operational patterns that define construction field delivery — how work gets created, approved, executed, and closed; how time and materials are captured; how field data flows from job site to ERP — are the same patterns built from blank page across energy maintenance programs covering 26+ facilities. Led complex enterprise platform migrations at scale, including facilitating executive alignment on a multi-decision Maximo platform migration and rationalizing 2,000+ applications through a major corporate spinoff. Product Manager on a SaaS operational analytics platform implementation at TC Energy. Owns the full product lifecycle — discovery, definition, delivery, launch, and iteration. Holds a BSc in Computer Science, enabling direct engagement with engineering and platform teams.
 
 ---
 
@@ -94,7 +94,7 @@ July 2014 — November 2019
 
 ## Skills
 
-- Field Operations & Work Management Workflow Design
+- Construction Technology & Field Operations Workflow Design
 - Enterprise Platform Migration & Re-Platforming
 - Product Backlog Management, Refinement & Release Planning
 - Workflow-Driven SaaS & Enterprise Platform PM
@@ -104,7 +104,7 @@ July 2014 — November 2019
 - Portfolio & Program Management ($9M–$15M+)
 - Azure DevOps | Power BI | SAP | Maximo (MAS)
 - Process-First Design & Requirements Definition
-- Industrial Technology Evaluation (AI/ML, IIoT, Predictive Maintenance)
+- Labor Workflows & T&M Field Data Capture (Timekeeping, Daily Reporting, Production Tracking)
 - Change Enablement & Platform Adoption
 - Energy / Industrial Field Operations Domain Expertise
 - BSc Computer Science (Engineering Collaboration)

@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Erika worked in fast food and as a server from age 16 to 24 — she has used POS systems, taken orders, managed tabs, and run shifts in the exact operating environment that restaurant tech is built to support. That direct user experience is the foundation; the career that followed built the other half. Over 14 years leading enterprise program and product delivery, she has built the operating systems that organizations run on: demand intake models, prioritization frameworks, governance structures, cross-functional delivery accountability, and the data infrastructure that makes decisions visible. At TC Energy, her PM role was de facto internal management consulting — she owned a $9M–$15M annual portfolio, ran demand intake from five business functions, negotiated competing priorities at the VP and GM level, and built the investment governance framework covering intake, business case evaluation, funding, and delivery oversight. At AltaGas, she designed the operating model from blank page: role accountabilities, service model, design tenets, and a structured delivery hierarchy in Azure DevOps with outcome-based "done" definitions at every level. She builds the infrastructure that scales organizations — and she understands the customers Owner.com serves from having been one.
+Erika worked in fast food and as a server from age 16 to 24 — she has used POS systems, taken orders, managed tabs, and run shifts in the exact operating environment that restaurant tech is built to support. That direct user experience is the foundation; the career that followed built the other half. Over 14 years leading enterprise program and product delivery, she has built the operating systems that organizations run on: demand intake models, prioritization frameworks, governance structures, cross-functional delivery accountability, and the data infrastructure that makes decisions visible. At TC Energy, her PM role was de facto COO/Chief of Staff-level operations — she identified and drove the highest-leverage initiatives across a $9M–$15M annual portfolio, ran demand intake from five business functions, aligned competing priorities at the VP and GM level, and built the investment governance framework and operating cadences covering intake, business case evaluation, funding, and delivery oversight. At AltaGas, she designed the operating model from zero to one: role accountabilities, service model, design tenets, and a structured delivery hierarchy in Azure DevOps with outcome-based "done" definitions at every level — then spun it up across four subsidiaries. She builds the infrastructure that scales organizations — and she understands the customers Owner.com serves from having been one.
 
 ---
 
@@ -19,7 +19,7 @@ Erika worked in fast food and as a server from age 16 to 24 — she has used POS
 **Lead, Business Solutions | Product Strategy**
 April 2025 — Present
 
-- Designed the EAM Operating Model from blank page — defined role accountabilities across five functions, nine design tenets governing how technical decisions are made, and a service model clarifying exactly how demand flows from business request to delivered capability; adopted across four subsidiaries
+- Designed the EAM Operating Model from zero to one — defined role accountabilities across five functions, nine design tenets governing how technical decisions are made, and a service model clarifying exactly how demand flows from business request to delivered capability; spun up and adopted across four subsidiaries
 - Established a delivery framework in Azure DevOps defining a five-level work hierarchy (Epics → Features → User Stories → Test Cases → Defects) with traceability standards and outcome-based "done" definitions at each level — providing consistent delivery visibility from strategic initiative through tested deliverable
 - Designed and chaired a three-tier governance structure (Strategic Leadership Council, Program Leadership Council, Technical Advisory Council) with defined decision rights, RASCI accountabilities, and committee cadence — adopted across AltaGas, WGL, Semco Energy, and Petrogas
 - Built and presented the business case for enterprise EAM governance to executive leadership, framing adoption gaps, technical debt, and delivery capacity constraints as enterprise risk across four subsidiaries
@@ -32,7 +32,7 @@ April 2025 — Present
 August 2021 — September 2024
 
 - Designed and operated an investment governance framework covering demand intake, business case evaluation, funding decisions, and delivery oversight — defined intake SLAs, prioritization criteria, escalation paths, and reporting cadences for a $9M–$15M annual portfolio spanning Engineering, Operations, Supply Chain, Projects, Reliability, and Commercial functions
-- Served as the single PM accountable for the entire Liquids Business Unit — individual PMs owning specific capability lines operated within the BU-level strategic roadmap; scope expanded to the full company-wide technology roadmap during the Southbow spinoff
+- Served as de facto COO for the Liquids Business Unit technology portfolio — identifying the highest-leverage initiatives across five capability areas, maintaining cross-functional alignment against company-level objectives, and course-correcting delivery when priorities shifted; scope expanded to the full company-wide technology roadmap during the Southbow spinoff
 - Conducted quantitative workload analytics across the PM function — mapped initiative volume, complexity, and stakeholder demand by product line to identify capacity imbalances and drive team restructuring decisions
 - Built a behavioral analytics model on application support ticket data — identified that zero-ticket areas had access barriers and systemic distrust rather than healthy adoption; findings changed how IT leadership measured field adoption across the organization
 - Partnered with Directors, General Managers, and Vice Presidents across five functions to evaluate, prioritize, and align proposed initiatives against strategic objectives — negotiating competing priorities, developing business cases, and securing investment decisions
@@ -77,9 +77,9 @@ July 2014 — November 2019
 
 ## Skills
 
-- Operating Model Design (Role Accountabilities, Service Models, Design Tenets)
+- Zero-to-One Initiative Design & Operating Model Architecture
 - Process & Workflow Design (Cross-Functional, End-to-End)
-- Demand Management & Intake Modeling
+- Operating Cadence Design, Demand Management & Strategic Planning Infrastructure
 - Prioritization Frameworks & Investment Governance
 - Cross-Functional Program Delivery & Portfolio Management ($9M–$15M+)
 - Data-Driven Decision-Making & Analytics (Power BI, Behavioral Analytics, Workload Modeling)
@@ -87,5 +87,5 @@ July 2014 — November 2019
 - Business Case Development & Financial Modeling (ROI, NPV)
 - Azure DevOps | Power Apps | Power BI | SAP
 - Delivery Hierarchy Design & "Done" Criteria Definition
-- Capacity Planning & Organizational Restructuring
+- Highest-Leverage Project Identification, Prioritization & Course Correction
 - Restaurant & Hospitality Industry (Direct End-User: POS, Order Management, Shift Operations)
