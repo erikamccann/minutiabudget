@@ -75,6 +75,7 @@ function parseExperience(text) {
     const lines = block.split('\n');
     const firstLine = lines[0].trim();
 
+    // "### Company Name — Location" or "### Company Name"
     const compM = firstLine.match(/^### (.+?)(?:\s+[—–]\s+(.+))?$/);
     if (!compM) continue;
 
@@ -90,13 +91,17 @@ function parseExperience(text) {
     for (let i = 1; i < lines.length; i++) {
       const t = lines[i].trim();
       if (!t || t === '---') continue;
+
+      // Skip italic-only lines like *Clients: ...*
       if (t.startsWith('*') && !t.startsWith('**') && t.endsWith('*')) continue;
 
+      // Role line: **Title** or **Title** | Period
       if (t.startsWith('**') && !t.startsWith('***')) {
         if (currentTitle !== null) {
           roles.push({ title: currentTitle, period: currentPeriod || '', bullets: currentBullets });
           currentBullets = [];
         }
+        // Inline date? "**Title** | Period"
         const inlineM = t.match(/^\*\*(.+?)\*\*\s+\|\s+(.+)$/);
         if (inlineM) {
           currentTitle = inlineM[1].trim();
@@ -110,12 +115,14 @@ function parseExperience(text) {
         continue;
       }
 
+      // Date line (after role title, before bullets)
       if (waitingForDate && currentPeriod === null && t.match(/\d{4}/) && !t.startsWith('-')) {
         currentPeriod = t;
         waitingForDate = false;
         continue;
       }
 
+      // Bullet
       if (t.startsWith('- ') && currentTitle !== null) {
         currentBullets.push(t.slice(2).trim());
       }
@@ -194,14 +201,18 @@ function buildCompetenciesHTML(skills) {
 function buildFullHTML(cv, template) {
   let html = template;
 
+  // 1. Remove portfolio block (while placeholders still present)
   html = html.replace(
     /[ \t]*<span class="separator">\|<\/span>\n[ \t]*<a href="\{\{PORTFOLIO_URL\}\}">\{\{PORTFOLIO_DISPLAY\}\}<\/a>\n/,
     ''
   );
 
+  // 2. Remove Projects, Certifications, and duplicate Skills sections
   html = html.replace(/[ \t]*<!-- PROJECTS -->[\s\S]*?\{\{PROJECTS\}\}\n[ \t]*<\/div>\n/g, '');
   html = html.replace(/[ \t]*<!-- CERTIFICATIONS -->[\s\S]*?\{\{CERTIFICATIONS\}\}\n[ \t]*<\/div>\n/g, '');
+  html = html.replace(/[ \t]*<!-- SKILLS -->[\s\S]*?\{\{SKILLS\}\}\n[ \t]*<\/div>\n/g, '');
 
+  // 3. Replace all placeholders
   const linkedinUrl = cv.linkedin.startsWith('http') ? cv.linkedin : `https://${cv.linkedin}`;
 
   const reps = {
@@ -229,6 +240,7 @@ function buildFullHTML(cv, template) {
     html = html.replaceAll(key, value);
   }
 
+  // Clean up any stray placeholders
   html = html.replace(/\{\{[A-Z_]+\}\}/g, '');
 
   return html;
