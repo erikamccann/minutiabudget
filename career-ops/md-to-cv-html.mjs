@@ -259,6 +259,7 @@ const cvFiles = [
   'output/cgi-pm-owner-pvr-2026-06-01.md',
   'output/ownercom-strategic-ops-lead-2026-06-01.md',
   'output/affirm-senior-pm-financial-platforms-2026-06-11.md',
+  'output/ndax-head-of-product-management-2026-06-11.md',
 ];
 
 const buildResults = [];
