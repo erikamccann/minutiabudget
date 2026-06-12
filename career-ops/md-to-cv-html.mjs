@@ -261,6 +261,7 @@ const cvFiles = [
   'output/affirm-senior-pm-financial-platforms-2026-06-11.md',
   'output/ndax-head-of-product-management-2026-06-11.md',
   'output/allstate-lead-digital-pm-sr-manager-2026-06-12.md',
+  'output/babylist-sr-tpm-merchandising-2026-06-12.md',
 ];
 
 const buildResults = [];
