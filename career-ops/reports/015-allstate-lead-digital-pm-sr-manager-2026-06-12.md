@@ -3,7 +3,7 @@
 **Date:** 2026-06-12
 **URL:** https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/Canadian-Head-Office-It/Lead-Digital-Product-Manager--Sr-Manager-_R31578
 **Archetype:** Product Manager (Enterprise Digital / Insurance IT)
-**Score:** 3.2/5
+**Score:** 3.5/5
 **Legitimacy:** Legitimate
 **PDF:** ❌
 
@@ -17,7 +17,7 @@
 | **Domain** | Insurance IT — enterprise digital products within Allstate Canada's technology organization |
 | **Function** | Own product strategy and roadmap across a suite of digital products; lead and mentor a team of Digital Product Managers |
 | **Seniority** | Sr. Manager — 5+ years PM required, 2+ years coaching/leading PM teams |
-| **Remote** | Hybrid — **CRITICAL FLAG: Canadian Head Office IT = Markham, ON; verify Calgary-remote eligibility before applying** |
+| **Remote** | Fully remote — confirmed by posting ✓ |
 | **Company** | Allstate Canada — major P&C insurer; 9x Best Employer in Canada; Markham HQ; established and stable |
 | **TL;DR** | Player/coach Lead PM role inside Allstate Canada's IT function — own digital product strategy across a product suite while leading and developing a team of PMs |
 
@@ -107,12 +107,12 @@ New CV required if pursuing. Key framing shifts:
 |---|---|---|
 | Posting source | Workday (enterprise ATS) | Positive |
 | Company | Allstate Canada — established major insurer, stable employer | Positive |
-| Location | Canadian Head Office IT, Markham ON — **hybrid, location TBD for Calgary** | Critical flag |
+| Location | Fully remote — confirmed by posting ✓ | Positive |
 | Salary | Not disclosed; market data suggests $140K–$185K CAD | Neutral |
 | Company recognition | 9x Best Employer in Canada | Positive |
 | JD accessibility | Workday JS-rendered — full JD not retrieved; role structure inferred from global equivalents | Neutral |
 
-**Assessment: Legitimate** — Allstate Canada is a real, stable employer. The specific JD could not be fully retrieved; evaluation uses the global role structure as proxy. **Verify location flexibility before applying** — the "Canadian Head Office IT" designation may require hybrid presence in Markham. Ask the recruiter: "Is this role open to candidates based in Calgary working fully remote, or does it require hybrid presence in Markham?"
+**Assessment: Legitimate** — Allstate Canada is a real, stable employer. Fully remote confirmed by the posting. The specific JD could not be fully retrieved (Workday JS-rendered); evaluation uses the global role structure as proxy.
 
 ---
 
@@ -125,22 +125,19 @@ digital product management, product roadmap, product strategy, product lifecycle
 ## Machine Summary
 
 ```yaml
-score: 3.2
+score: 3.5
 archetype: Product Manager (Enterprise Digital / Insurance IT)
 domain: insurance IT / enterprise digital products
-remote: hybrid
-location_score: 1.0
+remote: true
+location_score: 5.0
 comp_risk: low
 comp_estimate_cad: 140000-185000
-apply: conditional
+apply: yes
 conditions:
-  - VERIFY Calgary-remote eligibility first — Markham hybrid may be a hard location no
-  - if Calgary-remote confirmed, score upgrades to 3.5+ apply
   - new CV needed with "Digital PM" vocabulary alignment
   - insurance domain gap is desirable not required; energy-to-regulated-industry bridge works
 legitimacy: legitimate
 gaps:
-  - location: Markham hybrid may disqualify Calgary-based candidate
   - insurance industry domain (desirable, not required)
   - UX/UI design awareness not prominent
   - "Digital PM" title framing vs Erika's enterprise portfolio PM background
