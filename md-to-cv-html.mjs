@@ -263,6 +263,7 @@ const cvFiles = [
   'output/allstate-lead-digital-pm-sr-manager-2026-06-12.md',
   'output/babylist-sr-tpm-merchandising-2026-06-12.md',
   'output/fortive-intelex-portfolio-pm-ehs-2026-06-12.md',
+  'output/neo-financial-director-creative-design-ops-2026-06-12.md',
 ];
 
 const buildResults = [];
